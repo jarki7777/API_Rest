@@ -15,7 +15,7 @@ try {
     });
     console.log('MongoDB connected');
 } catch (e) {
-    console.log(`Something went wrong with Mongo ${e}`)
+    console.log(e)
 };
 
 app.use('/movie', userRoutes);
