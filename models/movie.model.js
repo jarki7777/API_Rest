@@ -1,14 +1,12 @@
 import mongoose from 'mongoose';
 
 const MovieSchema = new mongoose.Schema({
-    name: String,
-    lastName: String,
-    email: {
-        type: String,
-        required: true,
-        unique: true
-    },
-    phone: Number
+    title: String,
+    releaseDate: String,
+    ageRate: String,
+    genre: Array,
+    director: String,
+    mainCast: Array,        
 });
 
 const Movies = mongoose.model('Movies', MovieSchema);

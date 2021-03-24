@@ -3,6 +3,6 @@ import { movieController } from '../controllers/movie.controller.js';
 
 const movieRoutes = Router();
 
-movieRoutes.get('/', movieController.list);
+movieRoutes.post('/', movieController.CreateNewMovie);
 
 export default movieRoutes;
