@@ -20,6 +20,15 @@ export const movieController = {
             res.sendStatus(500);
         }
     },
+    listByTitle: async (req, res) => {
+        try {
+            const movieList = await Movies.find();
+            res.status(200).send(movieList);
+        } catch (e) {
+            console.log(e);
+            res.sendStatus(500);
+        }
+    },
     updateMovie: async (req, res) => {
         try {
             const id = req.body._id;
@@ -39,6 +48,16 @@ export const movieController = {
                 mainCast: newMainCast }}
             );
             res.sendStatus(202);
+        } catch (e) {
+            console.log(e);
+            res.sendStatus(500);
+        }
+    },
+    deleteMovie: async (req, res) => {
+        try {
+            const id = req.body._id;
+            const movieList = await Movies.findByIdAndDelete({ _id: id});
+            res.sendStatus(200)
         } catch (e) {
             console.log(e);
             res.sendStatus(500);
