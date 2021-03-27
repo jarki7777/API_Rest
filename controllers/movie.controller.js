@@ -54,6 +54,15 @@ export const movieController = {
             console.log(e);
         }
     },
+    listByDirector: async (req, res) => {
+        try {
+            const director = req.query.director;
+            const movieList = await Movies.find({ director: { $regex: new RegExp(director, "i") } });                     
+            res.status(200).send(movieList);
+        } catch (e) {
+            console.log(e);
+        }
+    },
     updateMovie: async (req, res) => {
         try {
             const id = req.query.id;
