@@ -8,7 +8,6 @@ export const movieController = {
             res.sendStatus(201);
         } catch (e) {
             console.log(e);
-            res.sendStatus(500);
         }
     },
     listAll: async (req, res) => {
@@ -17,21 +16,29 @@ export const movieController = {
             res.status(200).send(movieList);
         } catch (e) {
             console.log(e);
-            res.sendStatus(500);
         }
     },
-    listByTitle: async (req, res) => {
+    listByName: async (req, res) => {
         try {
-            const movieList = await Movies.find();
+            const title = req.query.title;
+            const movieList = await Movies.find({ title: { $regex: new RegExp(title, "i") } });
             res.status(200).send(movieList);
         } catch (e) {
             console.log(e);
-            res.sendStatus(500);
+        }
+    },
+    listById: async (req, res) => {
+        try {
+            const id = req.params.id;
+            const movieList = await Movies.findById({ _id: id });
+            res.status(200).send(movieList);
+        } catch (e) {
+            console.log(e);
         }
     },
     updateMovie: async (req, res) => {
         try {
-            const id = req.body._id;
+            const id = req.query.id;
             const newTitle = req.body.title;
             const newDate = req.body.releaseDate;
             const newAgeRate = req.body.ageRate;
@@ -54,17 +61,15 @@ export const movieController = {
             res.sendStatus(202);
         } catch (e) {
             console.log(e);
-            res.sendStatus(500);
         }
     },
     deleteMovie: async (req, res) => {
         try {
-            const id = req.body._id;
+            const id = req.query.id;
             const movieList = await Movies.findByIdAndDelete({ _id: id });
             res.sendStatus(200)
         } catch (e) {
             console.log(e);
-            res.sendStatus(500);
         }
     }
 }

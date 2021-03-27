@@ -1,7 +1,10 @@
 import mongoose from 'mongoose';
 
 const MovieSchema = new mongoose.Schema({
-    title: String,
+    title: {
+        type: String,
+        required: true
+    },
     releaseDate: String,
     ageRate: String,
     genre: Array,

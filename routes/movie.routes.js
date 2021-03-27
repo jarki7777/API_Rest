@@ -7,7 +7,9 @@ movieRoutes.post('/', movieController.createNewMovie);
 
 movieRoutes.get('/', movieController.listAll);
 
-movieRoutes.get('/movie', movieController.listByTitle);
+movieRoutes.get('/query', movieController.listByName);
+
+movieRoutes.get('/:id', movieController.listById);
 
 movieRoutes.patch('/', movieController.updateMovie);
 
