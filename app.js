@@ -1,27 +1,19 @@
 import express from 'express';
-import mongoose from 'mongoose';
-import userRoutes from './routes/movie.routes.js'
+import dotenv from 'dotenv';
+import { connectMongoose } from './config/db.js';
+import { checkJwt } from './controllers/auth.controller.js';
+import userRoutes from './routes/movie.routes.js';
+
+dotenv.config();
 
 const app = express();
 
 app.use(express.json());
 
-try {
-    await mongoose.connect('mongodb://localhost:27017/API_Rest', {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
-        useCreateIndex: true,
-        useFindAndModify: false
-    });
-    console.log('MongoDB connected');
-} catch (e) {
-    console.log(e)
-};
+connectMongoose();
 
 app.use('/movie', userRoutes);
 
-const port = 3000;
-
-app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
+app.listen(process.env.port, () => {
+    console.log(`Server is running on port ${process.env.port}`);
 });

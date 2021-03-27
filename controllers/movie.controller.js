@@ -40,12 +40,16 @@ export const movieController = {
             const newMainCast = req.body.mainCast;
             const modifyMovie = await Movies.findByIdAndUpdate(
                 { _id: id },
-                { $set: { title: newTitle,
-                releaseDate: newDate ,
-                ageRate: newAgeRate ,
-                genre: newGenre,
-                director: newDirector,
-                mainCast: newMainCast }}
+                {
+                    $set: {
+                        title: newTitle,
+                        releaseDate: newDate,
+                        ageRate: newAgeRate,
+                        genre: newGenre,
+                        director: newDirector,
+                        mainCast: newMainCast
+                    }
+                }
             );
             res.sendStatus(202);
         } catch (e) {
@@ -56,7 +60,7 @@ export const movieController = {
     deleteMovie: async (req, res) => {
         try {
             const id = req.body._id;
-            const movieList = await Movies.findByIdAndDelete({ _id: id});
+            const movieList = await Movies.findByIdAndDelete({ _id: id });
             res.sendStatus(200)
         } catch (e) {
             console.log(e);

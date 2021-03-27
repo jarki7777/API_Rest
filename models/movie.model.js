@@ -6,7 +6,7 @@ const MovieSchema = new mongoose.Schema({
     ageRate: String,
     genre: Array,
     director: String,
-    mainCast: Array,
+    mainCast: Array
 });
 
 const Movies = mongoose.model('Movies', MovieSchema);
