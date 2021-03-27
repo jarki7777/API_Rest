@@ -5,9 +5,13 @@ const movieRoutes = Router();
 
 movieRoutes.post('/', movieController.createNewMovie);
 
-movieRoutes.get('/', movieController.listAll);
+movieRoutes.get('/collection', movieController.listAll);
 
-movieRoutes.get('/query', movieController.listByName);
+movieRoutes.get('/title', movieController.listByName);
+
+movieRoutes.get('/genre', movieController.listByGenre);
+
+movieRoutes.get('/actor', movieController.listByActor);
 
 movieRoutes.get('/:id', movieController.listById);
 
