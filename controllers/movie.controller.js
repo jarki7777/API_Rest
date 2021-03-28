@@ -91,19 +91,12 @@ export const movieController = {
             const newGenre = req.body.genre;
             const newDirector = req.body.director;
             const newMainCast = req.body.mainCast;
-            await Movies.findByIdAndUpdate(
-                { _id: id },
-                {
-                    $set: {
-                        title: newTitle,
-                        releaseDate: newDate,
-                        ageRate: newAgeRate,
-                        genre: newGenre,
-                        director: newDirector,
-                        mainCast: newMainCast
-                    }
-                }
-            );
+            if (newTitle) await Movies.findByIdAndUpdate({ _id: id }, { $set: { title: newTitle }});
+            if (newDate) await Movies.findByIdAndUpdate({ _id: id }, { $set: { releaseDate: newDate }});
+            if (newAgeRate) await Movies.findByIdAndUpdate({ _id: id }, { $set: { ageRate: newAgeRate }});
+            if (newGenre) await Movies.findByIdAndUpdate({ _id: id }, { $set: { genre: newGenre }});
+            if (newDirector) await Movies.findByIdAndUpdate({ _id: id }, { $set: { director: newDirector }});
+            if (newMainCast) await Movies.findByIdAndUpdate({ _id: id }, { $set: { mainCast: newMainCast }});
             res.sendStatus(202);
         } catch (e) {
             console.log(e);
@@ -119,6 +112,13 @@ export const movieController = {
             res.sendStatus(200)
         } catch (e) {
             console.log(e);
+        }
+    },
+    findAnything: async (req, res) => {
+        try {
+            const asda = asda;
+        } catch (e) {
+
         }
     }
 }

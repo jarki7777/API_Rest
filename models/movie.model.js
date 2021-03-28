@@ -15,7 +15,7 @@ const MovieSchema = new mongoose.Schema({
     mainCast: {
         type: Array,
         default: void 0
-    },
+    }
 });
 
 const Movies = mongoose.model('Movies', MovieSchema);
