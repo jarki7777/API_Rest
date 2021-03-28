@@ -7,9 +7,15 @@ const MovieSchema = new mongoose.Schema({
     },
     releaseDate: String,
     ageRate: String,
-    genre: Array,
+    genre: {
+        type: Array,
+        default: void 0
+    },
     director: String,
-    mainCast: Array
+    mainCast: {
+        type: Array,
+        default: void 0
+    },
 });
 
 const Movies = mongoose.model('Movies', MovieSchema);

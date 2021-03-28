@@ -3,22 +3,22 @@ import { movieController } from '../controllers/movie.controller.js';
 
 const movieRoutes = Router();
 
-movieRoutes.post('/', movieController.createNewMovie);
+movieRoutes.post('/new', movieController.createNewMovie);
 
 movieRoutes.get('/collection', movieController.listAll);
+
+movieRoutes.get('/:id', movieController.listById);
 
 movieRoutes.get('/title', movieController.listByName);
 
 movieRoutes.get('/genre', movieController.listByGenre);
 
-movieRoutes.get('/actor', movieController.listByActor);
+movieRoutes.get('/performer', movieController.listByperformer);
 
 movieRoutes.get('/director', movieController.listByDirector);
 
-movieRoutes.get('/:id', movieController.listById);
+movieRoutes.patch('/update', movieController.updateMovie);
 
-movieRoutes.patch('/', movieController.updateMovie);
-
-movieRoutes.delete('/', movieController.deleteMovie);
+movieRoutes.delete('/delete', movieController.deleteMovie);
 
 export default movieRoutes;

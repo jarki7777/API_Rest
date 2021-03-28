@@ -12,16 +12,16 @@ export const orderController = {
     },
     listOrders: async (req, res) => {
         try {
-            const movieList = await Movies.find();
-            res.status(200).send(movieList);
+            const response = await Movies.find();
+            res.status(200).send(response);
         } catch (e) {
             console.log(e);
         }
     },
     // listByID: async (req, res) => {
     //     try {
-    //         const movieList = await Movies.find();
-    //         res.status(200).send(movieList);
+    //         const response = await Movies.find();
+    //         res.status(200).send(response);
     //     } catch (e) {
     //         console.log(e);
     //     }

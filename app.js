@@ -1,7 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import { connectMongoose } from './config/db.js';
-import { checkJwt } from './controllers/auth.controller.js';
+import { checkJwt } from './middleware/checkJwt.js';
 import movieRoutes from './routes/movie.routes.js';
 
 dotenv.config();
