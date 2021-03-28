@@ -1,14 +1,5 @@
-import Movies from '../models/movie.model.js'
-
-const checkUrl = (query, results, res) => {
-    if (!query) {
-        res.status(400).send({ message: 'query param is required' });
-    } else if (!results.length) {
-        res.sendStatus(404);
-    } else {
-        res.status(200).send(results);
-    }
-}
+import Movies from '../models/movie.model.js';
+import checkUrl from './checkUrl.js';
 
 export const movieController = {
     createNewMovie: async (req, res) => {
@@ -17,8 +8,8 @@ export const movieController = {
             await Movies.create(newMovie);
             res.sendStatus(201);
         } catch (e) {
-            console.log(e);
-            res.status(400).send({ message: 'Title is required' })
+            console.log(e.message);
+            res.status(400).send({ message: 'title is required' })
         }
     },
     listAll: async (req, res) => {
@@ -36,11 +27,7 @@ export const movieController = {
             res.status(200).send(movieList);
         } catch (e) {
             console.log(e);
-            if (e.reason.message) {
-                res.status(400).send({ message: e.reason.message });
-            } else {
-                res.status(500).send({ message: e.message });
-            }
+            res.status(400).send({ message: 'id is required' })
         }
     },
     listByName: async (req, res) => {
@@ -114,11 +101,20 @@ export const movieController = {
             console.log(e);
         }
     },
-    findAnything: async (req, res) => {
-        try {
-            const asda = asda;
-        } catch (e) {
-
-        }
-    }
+    // findFilter: async (req, res) => {
+    //     try {
+    //         const filter = req.query.filter;
+    //         const select = req.query.select;
+    //         const movieList = await Movies.find(JSON.parse(filter), select)
+    //         res.status(200).send(movieList);
+    //         console.log(JSON.parse(filter))
+    //     } catch (e) {
+    //         console.log(e)
+    //         if (e.reason.message) {
+    //             res.status(400).send({ message: e.reason.message });
+    //         } else {
+    //             res.status(500).send({ message: e.message });
+    //         }
+    //     }
+    // }
 }

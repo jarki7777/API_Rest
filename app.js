@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 import { connectMongoose } from './config/db.js';
 import { checkJwt } from './middleware/checkJwt.js';
 import movieRoutes from './routes/movie.routes.js';
+import userRoutes from './routes/user.routes.js';
 
 dotenv.config();
 
@@ -13,6 +14,8 @@ app.use(express.json());
 connectMongoose();
 
 app.use('/movie', movieRoutes);
+
+app.use('/user', userRoutes);
 
 app.listen(process.env.port, () => {
     console.log(`Server is running on port ${process.env.port}`);

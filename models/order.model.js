@@ -21,6 +21,6 @@ const OrderSchema = new mongoose.Schema({
     }
 });
 
-const Orders = mongoose.model('Movies', OrderSchema);
+const Orders = mongoose.model('Orders', OrderSchema);
 
 export default Orders;

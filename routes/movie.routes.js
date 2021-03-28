@@ -21,4 +21,6 @@ movieRoutes.patch('/update', movieController.updateMovie);
 
 movieRoutes.delete('/delete', movieController.deleteMovie);
 
+// movieRoutes.get('/query', movieController.findFilter);
+
 export default movieRoutes;
