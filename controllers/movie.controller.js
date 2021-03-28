@@ -31,11 +31,16 @@ export const movieController = {
     },
     listById: async (req, res) => {
         try {
-            const id = req.params.id;
+            const id = req.query.id;
             const movieList = await Movies.findById({ _id: id });
             res.status(200).send(movieList);
         } catch (e) {
             console.log(e);
+            if (e.reason.message) {
+                res.status(400).send({ message: e.reason.message });
+            } else {
+                res.status(500).send({ message: e.message });
+            }
         }
     },
     listByName: async (req, res) => {
