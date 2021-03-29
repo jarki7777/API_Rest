@@ -3,11 +3,13 @@ import mongoose from 'mongoose';
 const UserSchema = new mongoose.Schema({
     email: {
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
     userName: {
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
     password: {
         type: String,
@@ -19,7 +21,7 @@ const UserSchema = new mongoose.Schema({
     },
     role: {
         type: String,
-        required: true
+        Default: 'Client'
     },
     orders: [mongoose.Schema.Types.ObjectId]
 });
