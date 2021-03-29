@@ -3,6 +3,6 @@ import { jwtController } from '../controllers/auth.controller.js';
 
 const jwtRoutes = Router();
 
-jwtRoutes.post('/', jwtController.singIn);
+jwtRoutes.post('/', jwtController.authenticate);
 
 export default jwtRoutes;

@@ -1,5 +1,4 @@
 import Users from '../models/user.model.js';
-import checkUrl from './checkUrl.js';
 
 export const userController = {
     createNewUser: async (req, res) => {

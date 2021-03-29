@@ -1,7 +1,7 @@
 import jwt from 'jsonwebtoken';
 
 export const jwtController = {
-    singIn: (req, res) => {
+    authenticate: (req, res) => {
         try {
             const data = {
                 email: req.body.email,

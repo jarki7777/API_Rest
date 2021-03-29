@@ -6,18 +6,20 @@ const OrderSchema = new mongoose.Schema({
         type: mongoose.Types.ObjectId,
         required: true
     },
-    moviesOrders: {
+    movie: {
         type: mongoose.Types.ObjectId,
         required: true
     },
-    date: String,
+    date: {
+        type: Date
+    },
     returnDate: {
-        type: String,
-        required: true
+        type: Date,
     },
     status: {
         type: String,
-        enum: ['CREATED', 'DELIVERED', 'RETURNED', 'OVERDUE']
+        enum: ['created', 'delivered', 'returned', 'overdue'],
+        required: true
     }
 });
 

@@ -101,20 +101,20 @@ export const movieController = {
             console.log(e);
         }
     },
-    // findFilter: async (req, res) => {
-    //     try {
-    //         const filter = req.query.filter;
-    //         const select = req.query.select;
-    //         const movieList = await Movies.find(JSON.parse(filter), select)
-    //         res.status(200).send(movieList);
-    //         console.log(JSON.parse(filter))
-    //     } catch (e) {
-    //         console.log(e)
-    //         if (e.reason.message) {
-    //             res.status(400).send({ message: e.reason.message });
-    //         } else {
-    //             res.status(500).send({ message: e.message });
-    //         }
-    //     }
-    // }
+    findFilter: async (req, res) => {
+        try {
+            const filter = req.query.filter;
+            const select = req.query.select;          
+            const movieList = await Movies.find(JSON.parse(filter), select)
+            res.status(200).send(movieList);
+            console.log(JSON.parse(filter))
+        } catch (e) {
+            console.log(e)
+            if (e.reason.message) {
+                res.status(400).send({ message: e.reason.message });
+            } else {
+                res.status(500).send({ message: e.message });
+            }
+        }
+    }
 }

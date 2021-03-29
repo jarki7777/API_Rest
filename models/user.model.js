@@ -5,7 +5,11 @@ const UserSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    name: {
+    userName: {
+        type: String,
+        required: true
+    },
+    password: {
         type: String,
         required: true
     },
@@ -13,11 +17,11 @@ const UserSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    admin: {
-        type: Boolean,
+    role: {
+        type: String,
         required: true
     },
-    order: mongoose.Schema.Types.ObjectId
+    orders: [mongoose.Schema.Types.ObjectId]
 });
 
 const Users = mongoose.model('Users', UserSchema);

@@ -1,25 +1,26 @@
 import { Router } from 'express';
 import { movieController } from '../controllers/movie.controller.js';
+import { checkJwt } from '../middleware/checkJwt.js';
 
 const movieRoutes = Router();
 
-movieRoutes.post('/new', movieController.createNewMovie);
+movieRoutes.post('/new', checkJwt, movieController.createNewMovie);
 
-movieRoutes.get('/collection', movieController.listAll);
+movieRoutes.get('/collection', checkJwt, movieController.listAll);
 
-movieRoutes.get('/', movieController.listById);
+movieRoutes.get('/', checkJwt, movieController.listById);
 
-movieRoutes.get('/title', movieController.listByName);
+movieRoutes.get('/title', checkJwt, movieController.listByName);
 
-movieRoutes.get('/genre', movieController.listByGenre);
+movieRoutes.get('/genre', checkJwt, movieController.listByGenre);
 
-movieRoutes.get('/performer', movieController.listByperformer);
+movieRoutes.get('/performer', checkJwt, movieController.listByperformer);
 
-movieRoutes.get('/director', movieController.listByDirector);
+movieRoutes.get('/director', checkJwt, movieController.listByDirector);
 
-movieRoutes.patch('/update', movieController.updateMovie);
+movieRoutes.patch('/update', checkJwt, movieController.updateMovie);
 
-movieRoutes.delete('/delete', movieController.deleteMovie);
+movieRoutes.delete('/delete', checkJwt, movieController.deleteMovie);
 
 // movieRoutes.get('/query', movieController.findFilter);
 

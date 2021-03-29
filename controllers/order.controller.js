@@ -4,51 +4,30 @@ export const orderController = {
     createNewOrder: async (req, res) => {
         try {
             const newOrder = req.body;
-            const makeOrder = await Orders.create(newOrder);
+            newOrder.date = Date.now();
+            let returnDate = new Date();
+            returnDate.setDate(returnDate.getDate() + 7);
+            newOrder.returnDate = returnDate;
+            await Orders.create(newOrder);
             res.sendStatus(201);
         } catch (e) {
-            console.log(e);
+            console.log(e.message);
+            res.status(400).send({ message: 'user, movie and status are required' })
         }
     },
     listOrders: async (req, res) => {
         try {
-            const response = await Movies.find();
-            res.status(200).send(response);
+            const orderList = await Orders.find();
+            res.status(200).send(orderList);
         } catch (e) {
             console.log(e);
         }
     },
-    // listByID: async (req, res) => {
-    //     try {
-    //         const response = await Movies.find();
-    //         res.status(200).send(response);
-    //     } catch (e) {
-    //         console.log(e);
-    //     }
-    // },
-    updateOrder: async (req, res) => {
+    listByUser: async (req, res) => {
         try {
-            const id = req.body._id;
-            const newTitle = req.body.title;
-            const newDate = req.body.releaseDate;
-            const newAgeRate = req.body.ageRate;
-            const newGenre = req.body.genre;
-            const newDirector = req.body.director;
-            const newMainCast = req.body.mainCast;
-            const modifyMovie = await Movies.findByIdAndUpdate(
-                { _id: id },
-                {
-                    $set: {
-                        title: newTitle,
-                        releaseDate: newDate,
-                        ageRate: newAgeRate,
-                        genre: newGenre,
-                        director: newDirector,
-                        mainCast: newMainCast
-                    }
-                }
-            );
-            res.sendStatus(202);
+            const user = req.query.id
+            const orderList = await Orders.find( { user: user });
+            res.status(200).send(orderList);
         } catch (e) {
             console.log(e);
         }
