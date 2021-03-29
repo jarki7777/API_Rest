@@ -13,7 +13,7 @@ export const orderController = {
             res.sendStatus(201);
         } catch (e) {
             console.log(e.message);
-            res.status(400).send({ message: 'user, movie and status are required' })
+            res.status(400).send({ message: e.message })
         }
     },
     listOrders: async (req, res) => {

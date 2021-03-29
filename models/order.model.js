@@ -4,7 +4,8 @@ import mongoose from 'mongoose';
 const OrderSchema = new mongoose.Schema({
     user: {
         type: mongoose.Types.ObjectId,
-        required: true
+        required: true,
+        unique: true
     },
     movie: {
         type: mongoose.Types.ObjectId,
