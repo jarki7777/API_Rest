@@ -21,7 +21,8 @@ const UserSchema = new mongoose.Schema({
     },
     role: {
         type: String,
-        Default: 'Client'
+        Default: 'Client',
+        required: true
     },
     orders: [mongoose.Schema.Types.ObjectId]
 });

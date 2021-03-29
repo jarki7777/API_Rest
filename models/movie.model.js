@@ -6,10 +6,15 @@ const MovieSchema = new mongoose.Schema({
         required: true,
         unique: true
     },
-    releaseDate: String,
-    ageRate: String,
+    releaseDate: Date,
+    ageRate: {
+        type: String,
+        enum: ['G', 'PG', 'PG-13', 'NC-17'],
+        required: true
+    },
     genre: {
-        type: Array,
+        type: [String],
+        enum: ['Action', 'Adventure', 'Animation', 'Fantasy', 'Thriller', 'Romance', 'Mystery', 'Horror', 'History', 'Biography', 'Film-Noir', 'Drama', 'Comedy', 'Sci-Fi', 'Crime', 'Family', 'Short', 'Sport', 'War', 'Western', 'Documentary', 'Musical'],
         default: void 0
     },
     director: String,

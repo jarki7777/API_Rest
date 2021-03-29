@@ -1,4 +1,5 @@
 import Orders from '../models/order.model.js'
+import { checkUrl } from '../util/checkUrl.js'
 
 export const orderController = {
     createNewOrder: async (req, res) => {
@@ -25,9 +26,9 @@ export const orderController = {
     },
     listByUser: async (req, res) => {
         try {
-            const user = req.query.id
+            const user = req.query.id            
             const orderList = await Orders.find( { user: user });
-            res.status(200).send(orderList);
+            checkUrl(user, orderList, res);
         } catch (e) {
             console.log(e);
         }
