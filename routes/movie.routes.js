@@ -1,14 +1,15 @@
 import { Router } from 'express';
 import { movieController } from '../controllers/movie.controller.js';
 import { checkJwt } from '../middleware/checkJwt.js';
+import { checkRole } from '../middleware/checkRole.js';
 
 const movieRoutes = Router();
 
-movieRoutes.post('/new', checkJwt, movieController.createNewMovie);
+movieRoutes.post('/new', checkJwt, checkRole, movieController.createNewMovie);
 
 movieRoutes.get('/collection', checkJwt, movieController.listAll);
 
-movieRoutes.get('/', checkJwt, movieController.listById);
+movieRoutes.get('/', checkJwt, checkRole, movieController.listById);
 
 movieRoutes.get('/title', checkJwt, movieController.listByName);
 
@@ -18,8 +19,8 @@ movieRoutes.get('/performer', checkJwt, movieController.listByperformer);
 
 movieRoutes.get('/director', checkJwt, movieController.listByDirector);
 
-movieRoutes.patch('/update', checkJwt, movieController.updateMovie);
+movieRoutes.patch('/update', checkJwt, checkRole, movieController.updateMovie);
 
-movieRoutes.delete('/delete', checkJwt, movieController.deleteMovie);
+movieRoutes.delete('/delete', checkJwt, checkRole, movieController.deleteMovie);
 
 export default movieRoutes;
