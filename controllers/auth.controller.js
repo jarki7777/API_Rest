@@ -9,8 +9,11 @@ export const jwtController = {
                 password: req.headers.password
             }
             const checkUser = await Users.findOne({ email: data.email });
-            if (checkUser && checkUser.email === data.email && checkUser.password === data.password) {
-                const token = jwt.sign(data, process.env.secret);
+            if (checkUser && checkUser.email === data.email && checkUser.password === data.password) {                
+                const jwtPayload = {
+                    email: req.headers.email
+                }                
+                const token = jwt.sign(jwtPayload, process.env.secret);
                 res.status(200).json({ token });
             } else {
                 res.status(404).send({ message: 'the email-password combination does not exist'});

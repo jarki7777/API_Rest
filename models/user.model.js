@@ -21,8 +21,8 @@ const UserSchema = new mongoose.Schema({
     },
     role: {
         type: String,
-        Default: 'Client',
-        required: true
+        Default: 'client',
+        enum: ['client', 'admin']
     },
     orders: [mongoose.Schema.Types.ObjectId]
 });
