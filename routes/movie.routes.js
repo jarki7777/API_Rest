@@ -9,7 +9,7 @@ movieRoutes.post('/new', checkJwt, checkRole, movieController.createNewMovie);
 
 movieRoutes.get('/collection', checkJwt, movieController.listAll);
 
-movieRoutes.get('/', checkJwt, checkRole, movieController.listById);
+movieRoutes.get('/', checkJwt, movieController.listById);
 
 movieRoutes.get('/title', checkJwt, movieController.listByName);
 

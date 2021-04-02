@@ -2,6 +2,7 @@
 - [Configuration](#Configuration)
 - [Run](#Run)
 - [Authentication](#Authentication)
+- [Authorization](#Authorization)
 - [Folder structure](#Project-folder-structure)
 - [Endpoints](#Endpoints)
     - [User enpoints](#Users)
@@ -57,6 +58,10 @@ New users will have to signup in order to access the service endpoints.
 Registered users can [login](#Login) and once the user is logged in, each subsequent request must include a **JSON Web Token**, which allows the user to access routes, services, and resources that are permitted with that token.
 #
 
+## Authorization
+All new users are created with 'client' role by default, only the 'admin' role user can create, update or delete documents. Except for new users wich can be created without authentication or authorization
+#
+
 
 ## Endpoints
 The supported request body format is JSON
@@ -91,9 +96,6 @@ The user request data need to be sent through headers:
         }
 
 - **GET** /user/dashboard?id={id}
-
-    headers:
-- authentication: {token}
 
 - **DELETE** /user/delete?id={id}
 #

@@ -8,8 +8,8 @@ const userRoutes = Router();
 
 userRoutes.post('/signup', userController.createNewUser);
 
-userRoutes.get('/dashboard', checkJwt, userController.dashboard);
+userRoutes.get('/dashboard', checkJwt, checkRole, userController.dashboard);
 
-userRoutes.delete('/delete', checkJwt, checkRole, userController.deleteUser);;
+userRoutes.delete('/delete', checkJwt, checkRole, userController.deleteUser);
 
 export default userRoutes;

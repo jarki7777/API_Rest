@@ -8,8 +8,7 @@ export const userController = {
                 email: req.headers.email,
                 userName: req.headers.username,
                 password: req.headers.password,
-                age: req.headers.age,
-                role: req.headers.role
+                age: req.headers.age
             }
             await Users.create(newUser);
             res.sendStatus(201);
