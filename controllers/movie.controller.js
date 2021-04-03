@@ -25,7 +25,7 @@ export const movieController = {
     },
     listById: async (req, res) => {
         try {
-            const id = req.query.id;
+            const id = req.params.id;
             const movieList = await Movies.findById({ _id: id });
             checkUrl(id, movieList, res);
         } catch (e) {
@@ -75,7 +75,7 @@ export const movieController = {
     },
     updateMovie: async (req, res) => {
         try {
-            const id = req.query.id;
+            const id = req.params.id;
             if (!id) {
                 res.status(400).send({ message: 'id is required' });
             }
@@ -99,7 +99,7 @@ export const movieController = {
     },
     deleteMovie: async (req, res) => {
         try {
-            const id = req.query.id;
+            const id = req.params.id;
             const movie = await Movies.findByIdAndDelete({ _id: id });
             checkUrl(id, movie, res);
         } catch (e) {

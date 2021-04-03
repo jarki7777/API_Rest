@@ -9,7 +9,7 @@ movieRoutes.post('/new', checkJwt, checkRole, movieController.createNewMovie);
 
 movieRoutes.get('/collection', checkJwt, movieController.listAll);
 
-movieRoutes.get('/', checkJwt, movieController.listById);
+movieRoutes.get('/id/:id', checkJwt, movieController.listById);
 
 movieRoutes.get('/title', checkJwt, movieController.listByName);
 
@@ -19,8 +19,8 @@ movieRoutes.get('/performer', checkJwt, movieController.listByperformer);
 
 movieRoutes.get('/director', checkJwt, movieController.listByDirector);
 
-movieRoutes.patch('/update', checkJwt, checkRole, movieController.updateMovie);
+movieRoutes.patch('/update/:id', checkJwt, checkRole, movieController.updateMovie);
 
-movieRoutes.delete('/delete', checkJwt, checkRole, movieController.deleteMovie);
+movieRoutes.delete('/delete/:id', checkJwt, checkRole, movieController.deleteMovie);
 
 export default movieRoutes;

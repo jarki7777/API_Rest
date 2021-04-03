@@ -19,7 +19,7 @@ export const userController = {
     },
     dashboard: async (req, res) => {
         try {
-            const id = req.query.id;
+            const id = req.params.id;
             const user = await Users.findById({ _id: id });
             checkUrl(id, user, res);
         } catch (e) {
@@ -29,7 +29,7 @@ export const userController = {
     },
     deleteUser: async (req, res) => {
         try {
-            const id = req.query.id;
+            const id = req.params.id;
             const user = await Users.findByIdAndDelete({ _id: id });
             checkUrl(id, user, res);
         } catch (e) {

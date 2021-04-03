@@ -10,6 +10,6 @@ orderRoutes.post('/new', checkJwt, orderController.createNewOrder);
 
 orderRoutes.get('/list', checkJwt, checkRole, orderController.listOrders);
 
-orderRoutes.get('/user', checkJwt, checkRole, orderController.listByUser);
+orderRoutes.get('/user/:id', checkJwt, checkRole, orderController.listByUser);
 
 export default orderRoutes;

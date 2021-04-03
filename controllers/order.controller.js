@@ -26,7 +26,7 @@ export const orderController = {
     },
     listByUser: async (req, res) => {
         try {
-            const user = req.query.id            
+            const user = req.params.id            
             const orderList = await Orders.find( { user: user });
             checkUrl(user, orderList, res);
         } catch (e) {
