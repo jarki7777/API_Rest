@@ -4,18 +4,21 @@ import mongoose from 'mongoose';
 const OrderSchema = new mongoose.Schema({
     user: {
         type: mongoose.Types.ObjectId,
+        ref: 'Users',
         required: true,
         unique: true
     },
     movie: {
         type: mongoose.Types.ObjectId,
+        ref: 'Movies',
         required: true
     },
     date: {
-        type: Date
+        type: Date,
+        required: true
     },
     returnDate: {
-        type: Date,
+        type: Date
     },
     status: {
         type: String,

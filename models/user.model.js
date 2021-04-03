@@ -23,8 +23,7 @@ const UserSchema = new mongoose.Schema({
         type: String,
         Default: 'client',
         enum: ['client', 'admin']
-    },
-    orders: [mongoose.Schema.Types.ObjectId]
+    }
 });
 
 const Users = mongoose.model('Users', UserSchema);

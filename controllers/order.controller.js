@@ -1,5 +1,5 @@
-import Orders from '../models/order.model.js'
-import { checkUrl } from '../util/checkUrl.js'
+import Orders from '../models/order.model.js';
+import { checkUrl } from '../util/checkUrl.js';
 
 export const orderController = {
     createNewOrder: async (req, res) => {
@@ -18,7 +18,7 @@ export const orderController = {
     },
     listOrders: async (req, res) => {
         try {
-            const orderList = await Orders.find();
+            const orderList = await Orders.find().populate('user movie', 'email title');
             res.status(200).send(orderList);
         } catch (e) {
             console.log(e);
@@ -26,8 +26,8 @@ export const orderController = {
     },
     listByUser: async (req, res) => {
         try {
-            const user = req.params.id            
-            const orderList = await Orders.find( { user: user });
+            const user = req.params.id
+            const orderList = await Orders.find({ user: user });
             checkUrl(user, orderList, res);
         } catch (e) {
             console.log(e);
