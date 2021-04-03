@@ -13,7 +13,7 @@ export const jwtController = {
                 const jwtPayload = {
                     email: req.headers.email
                 }                
-                const token = jwt.sign(jwtPayload, process.env.secret);
+                const token = jwt.sign(jwtPayload, process.env.SECRET);
                 res.status(200).json({ token, id: checkUser._id });
             } else {
                 res.status(404).send({ message: 'the email-password combination does not exist'});

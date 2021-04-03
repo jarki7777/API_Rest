@@ -9,7 +9,7 @@ const MovieSchema = new mongoose.Schema({
     releaseDate: Date,
     ageRate: {
         type: String,
-        enum: ['G', 'PG', 'PG-13', 'NC-17'],
+        enum: ['G', 'PG', 'PG-13', 'NC-17', 'R'],
         required: true
     },
     genre: {

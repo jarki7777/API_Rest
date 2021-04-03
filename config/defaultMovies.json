@@ -1,0 +1,491 @@
+[{
+  "_id": "605f1181eea0db3864d64ad7",
+  "genre": [
+    "Adventure",
+    "Drama",
+    "Sci-Fi"
+  ],
+  "mainCast": [
+    "Matthew McConaughey",
+    "Anne Hathaway",
+    "Jessica Chastain"
+  ],
+  "title": "Interstellar",
+  "releaseDate": "2014-11-07T00:00:00Z",
+  "ageRate": "PG-13",
+  "director": "Christopher Nolan"
+},{
+  "_id": "605f12afeea0db3864d64ad8",
+  "genre": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+  ],
+  "mainCast": [
+    "Leonardo DiCaprio",
+    "Joseph Gordon-Levitt",
+    "Elliot Page"
+  ],
+  "title": "Inception",
+  "releaseDate": "2010-07-16T00:00:00Z",
+  "ageRate": "PG-13",
+  "director": "Christopher Nolan"
+},{
+  "_id": "605f12faeea0db3864d64ad9",
+  "genre": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+  ],
+  "mainCast": [
+    "Sam Neill",
+    "Laura Dern",
+    "Jeff Goldblum"
+  ],
+  "title": "Jurassic Park",
+  "releaseDate":  "1993-06-11T00:00:00Z",
+  "ageRate": "PG-13",
+  "director": "Steven Spielberg"
+},{
+  "_id": "605f13a3eea0db3864d64ada",
+  "genre": [
+    "Action",
+    "Crime",
+    "Drama"
+  ],
+  "mainCast": [
+    "Christian Bale",
+    "Heath Ledger",
+    "Aaron Eckhart"
+  ],
+  "title": "The Dark Knight",
+  "releaseDate": "2008-07-18T00:00:00Z",
+  "ageRate": "PG-13",
+  "director": "Christopher Nolan"
+},{
+  "_id": "605f146eeea0db3864d64adb",
+  "genre": [
+    "Action",
+    "Drama",
+    "History"
+  ],
+  "mainCast": [
+    "Mel Gibson",
+    "Heath Ledger",
+    "Joely Richardson"
+  ],
+  "title": "The Patriot",
+  "releaseDate":  "2000-06-28T00:00:00Z",
+  "ageRate": "PG-13",
+  "director": "Roland Emmerich"
+},{
+  "_id": "605f15ceeea0db3864d64adc",
+  "genre": [
+    "Adventure",
+    "Drama",
+    "Sci-Fi"
+  ],
+  "mainCast": [
+    "Matt Damon",
+    "Jessica Chastain",
+    "Kristen Wiig"
+  ],
+  "title": "The Martian",
+  "releaseDate": "2015-10-02T00:00:00Z",
+  "ageRate": "PG-13",
+  "director": "Ridley Scott"
+},{
+  "_id": "605f16f7eea0db3864d64add",
+  "genre": [
+    "Drama",
+    "Sci-Fi"
+  ],
+  "mainCast": [
+    "Amy Adams",
+    "Jeremy Renner",
+    "Forest Whitaker"
+  ],
+  "title": "Arrival",
+  "releaseDate": "2016-11-11T00:00:00Z",
+  "ageRate": "PG-13",
+  "director": "Denis Villeneuve"
+},{
+  "_id": "605f17c4eea0db3864d64ade",
+  "genre": [
+    "Action",
+    "Drama",
+    "Mystery"
+  ],
+  "mainCast": [
+    "Harrison Ford",
+    "Ryan Gosling",
+    "Ana de Armas"
+  ],
+  "title": "Blade Runner 2049",
+  "releaseDate": "2017-10-06T00:00:00Z",
+  "ageRate": "R",
+  "director": "Denis Villeneuve"
+},{
+  "_id": "605f18baeea0db3864d64adf",
+  "genre": [
+    "Crime",
+    "Drama",
+    "Mystery"
+  ],
+  "mainCast": [
+    "Morgan Freeman",
+    "Brad Pitt",
+    "Kevin Spacey"
+  ],
+  "title": "Se7en",
+  "releaseDate": "1995-09-22T00:00:00Z",
+  "ageRate": "R",
+  "director": "David Fincher"
+},{
+  "_id": "605f190ceea0db3864d64ae0",
+  "genre": [
+    "Adventure",
+    "Drama",
+    "War"
+  ],
+  "mainCast": [
+    "Brad Pitt",
+    "Diane Kruger",
+    "Eli Roth"
+  ],
+  "title": "Inglourious Basterds",
+  "releaseDate": "2009-08-21T00:00:00Z",
+  "ageRate": "R",
+  "director": "Quentin Tarantino"
+},{
+  "_id": "605f1a2feea0db3864d64ae1",
+  "genre": [
+    "Crime",
+    "Drama",
+    "Mystery"
+  ],
+  "mainCast": [
+    "Samuel L. Jackson",
+    "Kurt Russell",
+    "Jennifer Jason Leigh"
+  ],
+  "title": "The Hateful Eight",
+  "releaseDate": "2015-12-29T23:00:00Z",
+  "ageRate": "R",
+  "director": "Quentin Tarantino"
+},{
+  "_id": "605f1cbceea0db3864d64ae2",
+  "genre": [
+    "Biography",
+    "Crime",
+    "Drama"
+  ],
+  "mainCast": [
+    "Leonardo DiCaprio",
+    "Jonah Hill",
+    "Margot Robbie"
+  ],
+  "title": "The Wolf of Wall Street",
+  "releaseDate": "2013-12-25T00:00:00Z",
+  "ageRate": "R",
+  "director": "Martin Scorsese"
+},{
+  "_id": "605f1e40eea0db3864d64ae3",
+  "genre": [
+    "Action",
+    "Drama"
+  ],
+  "mainCast": [
+    "Tom Cruise",
+    "Tim Robbins",
+    "Kelly McGillis"
+  ],
+  "title": "Top Gun",
+  "releaseDate": "1986-05-16T00:00:00Z",
+  "ageRate": "PG",
+  "director": "Tony Scott"
+},{
+  "_id": "605f1e81eea0db3864d64ae4",
+  "genre": [
+    "Action",
+    "Drama"
+  ],
+  "mainCast": [
+    "Tom Cruise",
+    "Ken Watanabe",
+    "Billy Connolly"
+  ],
+  "title": "The Last Samurai",
+  "releaseDate": "2003-12-05T00:00:00Z",
+  "ageRate": "R",
+  "director": "Edward Zwick"
+},{
+  "_id": "605f1ee5eea0db3864d64ae5",
+  "genre": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+  ],
+  "mainCast": [
+    "Tom Cruise",
+    "Emily Blunt",
+    "Bill Paxton"
+  ],
+  "title": "Edge of Tomorrow",
+  "releaseDate": "2014-06-06T00:00:00Z",
+  "ageRate": "PG-13",
+  "director": "Doug Liman"
+},{
+  "_id": "605f25b0eea0db3864d64ae6",
+  "genre": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+  ],
+  "mainCast": [
+    "Tom Cruise",
+    "Morgan Freeman",
+    "Andrea Riseborough"
+  ],
+  "title": "Oblivion",
+  "releaseDate": "2013-04-19T00:00:00Z",
+  "ageRate": "PG-13",
+  "director": "Joseph Kosinski"
+},{
+  "_id": "605f2759eea0db3864d64ae7",
+  "genre": [
+    "Comedy",
+    "Fantasy"
+  ],
+  "mainCast": [
+    "Jim Carrey",
+    "Maura Tierney",
+    "Amanda Donohoeh"
+  ],
+  "title": "Liar Liar",
+  "releaseDate": "1997-03-21T00:00:00Z",
+  "ageRate": "PG-13",
+  "director": "Tom Shadyac"
+},{
+  "_id": "605f279feea0db3864d64ae8",
+  "genre": [
+    "Adventure",
+    "Drama",
+    "Romance"
+  ],
+  "mainCast": [
+    "Tom Hanks",
+    "Helen Hunt",
+    "Paul Sanchez"
+  ],
+  "title": "Cast Away",
+  "releaseDate": "2000-12-22T00:00:00Z",
+  "ageRate": "PG-13",
+  "director": "Robert Zemeckis"
+},{
+  "_id": "605f27e9eea0db3864d64ae9",
+  "genre": [
+    "Drama",
+    "Romance"
+  ],
+  "mainCast": [
+    "Tom Hanks",
+    "Robin Wright",
+    "Gary Sinise"
+  ],
+  "title": "Forrest Gump",
+  "releaseDate": "6 July 1994",
+  "ageRate": "PG-13",
+  "director": "Robert Zemeckis"
+},{
+  "_id": "605f2829eea0db3864d64aea",
+  "genre": [
+    "Animation",
+    "Adventure",
+    "Comedy"
+  ],
+  "mainCast": [
+    "Tom Hanks",
+    "Tim Allen",
+    "Don Rickles"
+  ],
+  "title": "Toy Story",
+  "releaseDate": "1995-11-22T00:00:00Z",
+  "ageRate": "G",
+  "director": "John Lasseter"
+},{
+  "_id": "605f28f0eea0db3864d64aeb",
+  "genre": [
+    "Action",
+    "Adventure",
+    "Drama"
+  ],
+  "mainCast": [
+    "Will Smith",
+    "Alice Braga",
+    "Charlie Tahan"
+  ],
+  "title": "I Am Legend",
+  "releaseDate": "2007-12-14T00:00:00Z",
+  "ageRate": "PG-13",
+  "director": "Francis Lawrence"
+},{
+  "_id": "605f2940eea0db3864d64aec",
+  "genre": [
+    "Biography",
+    "Drama"
+  ],
+  "mainCast": [
+    "Will Smith",
+    "Thandie Newton",
+    "Jaden Smith"
+  ],
+  "title": "The Pursuit of Happyness",
+  "releaseDate": "2006-12-15T00:00:00Z",
+  "ageRate": "PG-13",
+  "director": "Gabriele Muccino"
+},{
+  "_id": "605f299feea0db3864d64aed",
+  "genre": [
+    "Action",
+    "Drama",
+    "Sci-Fi"
+  ],
+  "mainCast": [
+    "Will Smith",
+    "Bridget Moynahan",
+    "Bruce Greenwood"
+  ],
+  "title": "I, Robot",
+  "releaseDate": "2004-07-16T00:00:00Z",
+  "ageRate": "PG-13",
+  "director": "Alex Proyas"
+},{
+  "_id": "605f2a80eea0db3864d64aee",
+  "genre": [
+    "Action",
+    "Adventure",
+    "Drama"
+  ],
+  "mainCast": [
+    "Elijah Wood",
+    "Ian McKellen",
+    "Orlando Bloom"
+  ],
+  "title": "The Lord of the Rings: The Fellowship of the Ring",
+  "releaseDate": "2001-12-19T00:00:00Z",
+  "ageRate": "PG-13",
+  "director": "Peter Jackson"
+},{
+  "_id": "605f2acceea0db3864d64aef",
+  "genre": [
+    "Action",
+    "Adventure",
+    "Drama"
+  ],
+  "mainCast": [
+    "Elijah Wood",
+    "Viggo Mortensen",
+    "Ian McKellen"
+  ],
+  "title": "The Lord of the Rings: The Return of the King",
+  "releaseDate": "2003-12-17T00:00:00Z",
+  "ageRate": "PG-13",
+  "director": "Peter Jackson"
+},{
+  "_id": "605f2b10eea0db3864d64af0",
+  "genre": [
+    "Action",
+    "Adventure",
+    "Drama"
+  ],
+  "mainCast": [
+    "Elijah Wood",
+    "Viggo Mortensen",
+    "Ian McKellen"
+  ],
+  "title": "The Lord of the Rings: The Two Towers",
+  "releaseDate": "2002-12-18T00:00:00Z",
+  "ageRate": "PG-13",
+  "director": "Peter Jackson"
+},{
+  "_id": "605f358eeea0db3864d64af1",
+  "genre": [
+    "Action",
+    "Adventure",
+    "Comedy"
+  ],
+  "mainCast": [
+    "Ryan Reynolds",
+    "Morena Baccarin",
+    "T.J. Miller"
+  ],
+  "title": "Deadpool",
+  "releaseDate": "2016-02-12T00:00:00Z",
+  "ageRate": "R",
+  "director": "Tim Miller"
+},{
+  "_id": "605f35fceea0db3864d64af2",
+  "genre": [
+    "Action",
+    "Sci-Fi",
+    "Thriller"
+  ],
+  "mainCast": [
+    "John David Washington",
+    "Robert Pattinson",
+    "Elizabeth Debicki"
+  ],
+  "title": "Tenet",
+  "releaseDate": "2020-09-03T00:00:00Z",
+  "ageRate": "PG-13",
+  "director": "Christopher Nolan"
+},{
+  "_id": "605f3910eea0db3864d64af3",
+  "genre": [
+    "Action",
+    "Sci-Fi",
+    "Thriller"
+  ],
+  "mainCast": [
+    "Matthew Broderick",
+    "Jean Reno",
+    "Maria Pitillo"
+  ],
+  "title": "Godzilla",
+  "releaseDate": "1998-05-20T00:00:00Z",
+  "ageRate": "PG-13",
+  "director": "Roland Emmerich"
+},{
+  "_id": "605f76a7680d50088c8eda9b",
+  "genre": [
+    "Animation",
+    "Adventure",
+    "Family"
+  ],
+  "mainCast": [
+    "Ming-Na Wen",
+    "Eddie Murphy",
+    "BD Wong"
+  ],
+  "title": "Mulan",
+  "releaseDate": "1998-06-19T00:00:00Z",
+  "ageRate": "G",
+  "director": "Tony Bancroft"
+},{
+  "_id": "606091dbc51ad04f90596d52",
+  "title": "Hercules",
+  "releaseDate": "1997-06-27T00:00:00Z",
+  "ageRate": "G",
+  "genre": [
+    "Animation",
+    "Adventure",
+    "Comedy"
+  ],
+  "director": "Ron Clements",
+  "mainCast": [
+    "Tate Donovan",
+    "Susan Egan",
+    "James Woods"
+  ]
+}]

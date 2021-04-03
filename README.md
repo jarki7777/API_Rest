@@ -39,9 +39,23 @@ Open the ***app.js*** file with node on the root folder of the project
 
         node app.js
 
-You can now start making requests using your API rest development platform
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/20b4cd6d5f009e4082e2?action=collection%2Fimport#?env%5BMy%20Movies%5D=W3sia2V5IjoidXJsIiwidmFsdWUiOiJodHRwOi8vMTI3LjAuMC4xOjMwMDAiLCJlbmFibGVkIjp0cnVlfSx7ImtleSI6InRva2VuIiwidmFsdWUiOiIiLCJlbmFibGVkIjp0cnVlfSx7ImtleSI6ImlkIiwidmFsdWUiOiIiLCJlbmFibGVkIjp0cnVlfSx7ImtleSI6InVzZXJpZCIsInZhbHVlIjoiIiwiZW5hYmxlZCI6dHJ1ZX1d)
+
+Now, in Postman, send the following GET requests to populate the database and set the master admin user
+
+                My Movies
+                ├───config
+                    ├───setAdmin
+                    ├───populateMovies
+
+The admin user credentials are 
+
+email: admin@admin.com
+
+password: 1234
+
+You can now start making requests using your API rest development platform.
 #
 
 
