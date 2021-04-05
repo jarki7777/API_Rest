@@ -6,10 +6,10 @@ import { checkRole } from '../middleware/checkRole.js';
 
 const userRoutes = Router();
 
-userRoutes.post('/signup', userController.createNewUser);
+userRoutes.post('/signup', userController.create);
 
 userRoutes.get('/dashboard/:id', checkJwt, checkRole, userController.dashboard);
 
-userRoutes.delete('/delete/:id', checkJwt, checkRole, userController.deleteUser);
+userRoutes.delete('/:id', checkJwt, checkRole, userController.delete);
 
 export default userRoutes;

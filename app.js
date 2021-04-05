@@ -6,6 +6,7 @@ import userRoutes from './routes/user.routes.js';
 import jwtRoutes from './routes/auth.routes.js';
 import orderRoutes from './routes/order.routes.js';
 import configRoutes from './routes/config.routes.js';
+import { checkJwt } from './middleware/checkJwt.js';
 
 dotenv.config();
 
@@ -17,11 +18,11 @@ connectMongoose();
 
 app.use('/login', jwtRoutes);
 
-app.use('/movie', movieRoutes);
+app.use('/movie', checkJwt, movieRoutes);
 
 app.use('/user', userRoutes);
 
-app.use('/order', orderRoutes);
+app.use('/order', checkJwt, orderRoutes);
 
 app.use('/config', configRoutes);
 

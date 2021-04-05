@@ -2,7 +2,7 @@ import Movies from '../models/movie.model.js';
 import { checkUrl } from '../util/checkUrl.js';
 
 export const movieController = {
-    createNewMovie: async (req, res) => {
+    create: async (req, res) => {
         try {
             const newMovie = req.body;
             await Movies.create(newMovie);
@@ -53,7 +53,7 @@ export const movieController = {
             res.status(400).send({ message: e.message });;
         }
     },
-    listByperformer: async (req, res) => {
+    listByPerformer: async (req, res) => {
         try {
             const performer = req.query.performer;
             const movieList = await Movies.find({ mainCast: { $regex: new RegExp(performer, "i") } });
@@ -73,7 +73,7 @@ export const movieController = {
             res.status(400).send({ message: e.message });
         }
     },
-    updateMovie: async (req, res) => {
+    update: async (req, res) => {
         try {
             const id = req.params.id;
             if (!id) {
@@ -85,19 +85,21 @@ export const movieController = {
             const newGenre = req.body.genre;
             const newDirector = req.body.director;
             const newMainCast = req.body.mainCast;
+
             if (newTitle) await Movies.findByIdAndUpdate({ _id: id }, { $set: { title: newTitle } });
             if (newDate) await Movies.findByIdAndUpdate({ _id: id }, { $set: { releaseDate: newDate } });
             if (newAgeRate) await Movies.findByIdAndUpdate({ _id: id }, { $set: { ageRate: newAgeRate } });
             if (newGenre) await Movies.findByIdAndUpdate({ _id: id }, { $set: { genre: newGenre } });
             if (newDirector) await Movies.findByIdAndUpdate({ _id: id }, { $set: { director: newDirector } });
             if (newMainCast) await Movies.findByIdAndUpdate({ _id: id }, { $set: { mainCast: newMainCast } });
+            
             res.sendStatus(202);
         } catch (e) {
             console.log(e);
             res.status(400).send({ message: e.message });
         }
     },
-    deleteMovie: async (req, res) => {
+    delete: async (req, res) => {
         try {
             const id = req.params.id;
             const movie = await Movies.findByIdAndDelete({ _id: id });

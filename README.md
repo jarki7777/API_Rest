@@ -73,7 +73,7 @@ You can now start making requests using your API rest development platform.
 New users will have to signup in order to access the service endpoints.
 
 
-Registered users can [login](#Login) and once the user is logged in, each subsequent request must include a **JSON Web Token**, which allows the user to access routes, services, and resources that are permitted with that token.
+Registered users can login and once the user is logged in, each subsequent request must include a **JSON Web Token**, which allows the user to access routes, services, and resources that are permitted with that token.
 #
 
 ## Authorization
@@ -115,7 +115,7 @@ The user request data need to be sent through headers:
 
 - **GET** /user/dashboard?id={id}
 
-- **DELETE** /user/delete?id={id}
+- **DELETE** /user?id={id}
 #
 
 ## Movies
@@ -173,7 +173,7 @@ The user request data need to be sent through headers:
     parameters: 
     - director: director
 
-- **PATCH** /movie/update
+- **PATCH** /movie/
 
     You can patch any specific field or the whole document
 
@@ -191,7 +191,7 @@ The user request data need to be sent through headers:
         "director": "Christopher Nolan"
         }
 
-- **DELETE** /movie/delete
+- **DELETE** /movie
     
     parameters: 
     - id: mongoDB id
@@ -215,5 +215,8 @@ The user request data need to be sent through headers:
 - id: mongoDB id
 #
 
-[TOP](#Table-of-contents)
+### Author
+[Jarki Melendez](https://www.linkedin.com/in/jarki-melendez/)
 
+
+[TOP](#Table-of-contents)

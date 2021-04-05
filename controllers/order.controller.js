@@ -2,7 +2,7 @@ import Orders from '../models/order.model.js';
 import { checkUrl } from '../util/checkUrl.js';
 
 export const orderController = {
-    createNewOrder: async (req, res) => {
+    create: async (req, res) => {
         try {
             const newOrder = req.body;
             newOrder.date = Date.now();
@@ -16,7 +16,7 @@ export const orderController = {
             res.status(400).send({ message: e.message })
         }
     },
-    listOrders: async (req, res) => {
+    list: async (req, res) => {
         try {
             const orderList = await Orders.find().populate('user movie', 'email title');
             res.status(200).send(orderList);

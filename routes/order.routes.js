@@ -1,15 +1,14 @@
 import { Router } from 'express';
 import { orderController } from '../controllers/order.controller.js';
-import { checkJwt } from '../middleware/checkJwt.js';
 import { checkRole } from '../middleware/checkRole.js';
 
 
 const orderRoutes = Router();
 
-orderRoutes.post('/new', checkJwt, orderController.createNewOrder);
+orderRoutes.post('/new', orderController.create);
 
-orderRoutes.get('/list', checkJwt, checkRole, orderController.listOrders);
+orderRoutes.get('/list', checkRole, orderController.list);
 
-orderRoutes.get('/user/:id', checkJwt, checkRole, orderController.listByUser);
+orderRoutes.get('/user/:id', checkRole, orderController.listByUser);
 
 export default orderRoutes;

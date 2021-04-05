@@ -2,7 +2,7 @@ import Users from '../models/user.model.js';
 import { checkUrl } from '../util/checkUrl.js';
 
 export const userController = {
-    createNewUser: async (req, res) => {
+    create: async (req, res) => {
         try {
             const newUser = {
                 email: req.headers.email,
@@ -27,7 +27,7 @@ export const userController = {
             res.status(400).send({ message: e.message });
         }
     },
-    deleteUser: async (req, res) => {
+    delete: async (req, res) => {
         try {
             const id = req.params.id;
             const user = await Users.findByIdAndDelete({ _id: id });
