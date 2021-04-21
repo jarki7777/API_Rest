@@ -40,7 +40,8 @@ Open the ***app.js*** file with node on the root folder of the project
         node app.js
 
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/20b4cd6d5f009e4082e2?action=collection%2Fimport#?env%5BMy%20Movies%5D=W3sia2V5IjoidXJsIiwidmFsdWUiOiJodHRwOi8vMTI3LjAuMC4xOjMwMDAiLCJlbmFibGVkIjp0cnVlfSx7ImtleSI6InRva2VuIiwidmFsdWUiOiIiLCJlbmFibGVkIjp0cnVlfSx7ImtleSI6ImlkIiwidmFsdWUiOiIiLCJlbmFibGVkIjp0cnVlfSx7ImtleSI6InVzZXJpZCIsInZhbHVlIjoiIiwiZW5hYmxlZCI6dHJ1ZX1d)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/14151477-64e8f1ab-3816-4bba-be80-3850dba6777e?action=collection%2Ffork&collection-url=entityId%3D14151477-64e8f1ab-3816-4bba-be80-3850dba6777e%26entityType%3Dcollection%26workspaceId%3Dd94f2695-85ee-4aa5-9330-6bd80dab00e9#?env%5BMy%20Movies%5D=W3sia2V5IjoidXJsIiwidmFsdWUiOiJodHRwOi8vMTI3LjAuMC4xOjMwMDAiLCJlbmFibGVkIjp0cnVlfSx7ImtleSI6InRva2VuIiwidmFsdWUiOiIiLCJlbmFibGVkIjp0cnVlfSx7ImtleSI6ImlkIiwidmFsdWUiOiIiLCJlbmFibGVkIjp0cnVlfSx7ImtleSI6InVzZXJpZCIsInZhbHVlIjoiIiwiZW5hYmxlZCI6dHJ1ZX1d)
+
 
 Now, in Postman, send the following GET requests to populate the database and set the master admin user
 
