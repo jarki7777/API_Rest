@@ -1,5 +1,6 @@
 import jwt from 'jsonwebtoken';
 import Users from '../models/user.model.js';
+import bcrypt from 'bcrypt';
 
 export const jwtController = {
     authenticate: async (req, res) => {
@@ -9,7 +10,7 @@ export const jwtController = {
                 password: req.headers.password
             }
             const checkUser = await Users.findOne({ email: data.email });
-            if (checkUser && checkUser.email === data.email && checkUser.password === data.password) {                
+            if (checkUser && checkUser.email === data.email && bcrypt.compareSync(data.password, checkUser.password)) {                
                 const jwtPayload = {
                     email: req.headers.email
                 }                
