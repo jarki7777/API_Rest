@@ -7,12 +7,15 @@ import jwtRoutes from './routes/auth.routes.js';
 import orderRoutes from './routes/order.routes.js';
 import configRoutes from './routes/config.routes.js';
 import { checkJwt } from './middleware/checkJwt.js';
+import cors from 'cors'
 
 dotenv.config();
 
 const app = express();
 
 app.use(express.json());
+
+app.use(cors());
 
 connectMongoose();
 
