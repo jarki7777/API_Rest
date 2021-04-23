@@ -3,12 +3,25 @@ import { checkUrl } from '../util/checkUrl.js';
 
 export const userController = {
     create: async (req, res) => {
+
+        const born = req.headers.born;
+
+        const calculateAge = (birthday) => {
+            const diffTimestamp = Date.now() - birthday.getTime();
+            const today = new Date(diffTimestamp);
+
+            return Math.abs(today.getUTCFullYear() - 1970);
+        }
+
+        const age = calculateAge(new Date(born));
+
         try {
             const newUser = {
                 email: req.headers.email,
                 userName: req.headers.username,
                 password: req.headers.password,
-                age: req.headers.age
+                born: req.headers.born,
+                age: age
             }
             await Users.create(newUser);
             res.sendStatus(201);

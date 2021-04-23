@@ -14,6 +14,7 @@ export const configController = {
                 email: 'admin@admin.com',
                 userName: 'admin',
                 password: '1234',
+                born: '1970-01-01',
                 age: 30,
                 role: 'admin'
             }
