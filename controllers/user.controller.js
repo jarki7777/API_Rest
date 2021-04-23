@@ -1,10 +1,12 @@
 import Users from '../models/user.model.js';
 import { checkUrl } from '../util/checkUrl.js';
+import bcrypt from 'bcrypt';
 
 export const userController = {
     create: async (req, res) => {
 
         const born = req.body.born;
+        const salRounds = 10;
 
         const calculateAge = (birthday) => {
             const diffTimestamp = Date.now() - birthday.getTime();
@@ -19,7 +21,7 @@ export const userController = {
             const newUser = {
                 email: req.body.email,
                 userName: req.body.userName,
-                password: req.body.password,
+                password: bcrypt.hashSync(req.body.password, salRounds),
                 born: req.body.born,
                 age: age
             }
