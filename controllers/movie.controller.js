@@ -9,7 +9,7 @@ export const movieController = {
             res.sendStatus(201);
         } catch (e) {
             console.log(e);
-            res.status(400).send({ message: e.message });
+            res.status(400).send({ 'message': e.message });
         }
     },
     listAll: async (req, res) => {
@@ -21,6 +21,7 @@ export const movieController = {
             res.status(200).send({ pages: count, movies: movieList });
         } catch (e) {
             console.log(e);
+            res.status(400).send({ 'message': e.message });
         }
     },
     listById: async (req, res) => {
@@ -30,7 +31,7 @@ export const movieController = {
             checkUrl(id, movieList, res);
         } catch (e) {
             console.log(e);
-            res.status(400).send({ message: e.message });
+            res.status(400).send({ 'message': e.message });
         }
     },
     listByName: async (req, res) => {
@@ -40,7 +41,7 @@ export const movieController = {
             checkUrl(title, movieList, res);
         } catch (e) {
             console.log(e);
-            res.status(400).send({ message: e.message });
+            res.status(400).send({ 'message': e.message });
         }
     },
     listByGenre: async (req, res) => {
@@ -50,7 +51,7 @@ export const movieController = {
             checkUrl(genre, movieList, res);
         } catch (e) {
             console.log(e);
-            res.status(400).send({ message: e.message });;
+            res.status(400).send({ 'message': e.message });;
         }
     },
     listByPerformer: async (req, res) => {
@@ -60,7 +61,7 @@ export const movieController = {
             checkUrl(performer, movieList, res);
         } catch (e) {
             console.log(e);
-            res.status(400).send({ message: e.message });
+            res.status(400).send({ 'message': e.message });
         }
     },
     listByDirector: async (req, res) => {
@@ -70,14 +71,14 @@ export const movieController = {
             checkUrl(director, movieList, res);
         } catch (e) {
             console.log(e);
-            res.status(400).send({ message: e.message });
+            res.status(400).send({ 'message': e.message });
         }
     },
     update: async (req, res) => {
         try {
             const id = req.params.id;
             if (!id) {
-                res.status(400).send({ message: 'id is required' });
+                res.status(400).send({ 'message': 'id is required' });
             }
             const newTitle = req.body.title;
             const newDate = req.body.releaseDate;
@@ -96,7 +97,7 @@ export const movieController = {
             res.sendStatus(202);
         } catch (e) {
             console.log(e);
-            res.status(400).send({ message: e.message });
+            res.status(400).send({ 'message': e.message });
         }
     },
     delete: async (req, res) => {
@@ -106,7 +107,7 @@ export const movieController = {
             checkUrl(id, movie, res);
         } catch (e) {
             console.log(e);
-            res.status(400).send({ message: e.message });
+            res.status(400).send({ 'message': e.message });
         }
     }
 };

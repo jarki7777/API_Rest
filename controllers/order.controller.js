@@ -13,7 +13,7 @@ export const orderController = {
             res.sendStatus(201);
         } catch (e) {
             console.log(e.message);
-            res.status(400).send({ message: e.message })
+            res.status(400).send({ 'message': e.message });
         }
     },
     list: async (req, res) => {
@@ -22,6 +22,7 @@ export const orderController = {
             res.status(200).send(orderList);
         } catch (e) {
             console.log(e);
+            res.status(400).send({ 'message': e.message });
         }
     },
     listByUser: async (req, res) => {
@@ -31,6 +32,7 @@ export const orderController = {
             checkUrl(user, orderList, res);
         } catch (e) {
             console.log(e);
+            res.status(400).send({ 'message': e.message });
         }
     }
 }
