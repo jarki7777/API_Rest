@@ -12,10 +12,11 @@ export const userController = {
 
             return Math.abs(today.getUTCFullYear() - 1970);
         }
-        console.log(born)
+
         const age = calculateAge(new Date(born));
 
         try {
+            
             const newUser = {
                 email: req.body.email,
                 userName: req.body.userName,
@@ -23,9 +24,18 @@ export const userController = {
                 born: req.body.born,
                 age: age
             }
-            const response = await Users.create(newUser);
 
-            console.log(response)
+            const emailExist = await Users.findOne({ email: req.body.email });
+
+            const userNameExist = await Users.findOne({ userName: req.body.userName });
+
+            if (emailExist) {
+                res.status(400).send({'message': 'Email is already registered', 'code': 3});
+            } else if (userNameExist) {
+                res.status(400).send({'message': 'User name is already registered', 'code': 4});                
+            } else {
+                const response = await Users.create(newUser);                
+            }
 
             res.sendStatus(201);
         } catch (e) {
