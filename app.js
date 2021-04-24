@@ -29,6 +29,6 @@ app.use('/order', checkJwt, orderRoutes);
 
 app.use('/config', configRoutes);
 
-app.listen(process.env.port, () => {
+app.listen(process.env.PORT, () => {
     console.log(`Server is running on port ${process.env.PORT}`);
 });
