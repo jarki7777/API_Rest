@@ -5,15 +5,19 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const defaultMovies = require("../config/defaultMovies.json");
 import mongoose from 'mongoose';
+import bcrypt from 'bcrypt';
 
 export const configController = {
     setAdmin: async (req, res) => {
+
+        const salRounds = 10;
+
         try {
             await mongoose.connection.dropDatabase();
             const admin = {
                 email: 'admin@admin.com',
                 userName: 'admin',
-                password: '1234',
+                password: bcrypt.hashSync('1234', salRounds),
                 born: '1970-01-01',
                 age: 30,
                 role: 'admin'
