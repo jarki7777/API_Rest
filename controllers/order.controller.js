@@ -28,8 +28,16 @@ export const orderController = {
     listByUser: async (req, res) => {
         try {
             const user = req.params.id
-            const orderList = await Orders.find({ user: user });
-            checkUrl(user, orderList, res);
+            const skip = parseInt(req.query.skip);
+            const limit = parseInt(req.query.limit);
+
+            const orderList = await Orders.find({ user: user }).select('date returnDate')
+            .skip(skip).limit(limit).populate('movie', 'title poster');
+
+            const count = Math.ceil(await Orders.countDocuments(orderList) / 10);
+
+            res.status(200).send({ pages: count, orders: orderList });
+
         } catch (e) {
             console.log(e);
             res.status(400).send({ 'message': e.message });
