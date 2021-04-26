@@ -5,8 +5,7 @@ const OrderSchema = new mongoose.Schema({
     user: {
         type: mongoose.Types.ObjectId,
         ref: 'Users',
-        required: true,
-        unique: true
+        required: true
     },
     movie: {
         type: mongoose.Types.ObjectId,
