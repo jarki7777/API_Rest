@@ -12,12 +12,6 @@ movieRoutes.get('/id/:id', movieController.listById);
 
 movieRoutes.get('/title', movieController.listByName);
 
-movieRoutes.get('/genre', movieController.listByGenre);
-
-movieRoutes.get('/performer', movieController.listByPerformer);
-
-movieRoutes.get('/director', movieController.listByDirector);
-
 movieRoutes.patch('/:id', checkRole, movieController.update);
 
 movieRoutes.delete('/:id', checkRole, movieController.delete);

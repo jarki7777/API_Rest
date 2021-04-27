@@ -36,39 +36,14 @@ export const movieController = {
     },
     listByName: async (req, res) => {
         try {
-            const title = req.query.title;
-            const movieList = await Movies.find({ title: { $regex: new RegExp(title, "i") } });
-            checkUrl(title, movieList, res);
-        } catch (e) {
-            console.log(e);
-            res.status(400).send({ 'message': e.message });
-        }
-    },
-    listByGenre: async (req, res) => {
-        try {
-            const genre = req.query.genre;
-            const movieList = await Movies.find({ genre: { $regex: new RegExp(genre, "i") } });
-            checkUrl(genre, movieList, res);
-        } catch (e) {
-            console.log(e);
-            res.status(400).send({ 'message': e.message });;
-        }
-    },
-    listByPerformer: async (req, res) => {
-        try {
-            const performer = req.query.performer;
-            const movieList = await Movies.find({ mainCast: { $regex: new RegExp(performer, "i") } });
-            checkUrl(performer, movieList, res);
-        } catch (e) {
-            console.log(e);
-            res.status(400).send({ 'message': e.message });
-        }
-    },
-    listByDirector: async (req, res) => {
-        try {
-            const director = req.query.director;
-            const movieList = await Movies.find({ director: { $regex: new RegExp(director, "i") } });
-            checkUrl(director, movieList, res);
+            const param = req.query.title;
+            const movieList = await Movies.find({ $or: [
+                { title: { $regex: new RegExp(param, "i") }}, 
+                { mainCast: { $regex: new RegExp(param, "i") }},
+                { genre: { $regex: new RegExp(param, "i") }},
+                { director: { $regex: new RegExp(param, "i") }}
+            ] });
+            checkUrl(param, movieList, res);
         } catch (e) {
             console.log(e);
             res.status(400).send({ 'message': e.message });
