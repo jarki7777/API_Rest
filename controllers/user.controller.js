@@ -48,7 +48,7 @@ export const userController = {
     dashboard: async (req, res) => {
         try {
             const id = req.params.id;
-            const user = await Users.findById({ _id: id });
+            const user = await Users.findById({ _id: id }).select('email userName born');
             checkUrl(id, user, res);
         } catch (e) {
             console.log(e);
