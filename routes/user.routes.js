@@ -8,7 +8,7 @@ const userRoutes = Router();
 
 userRoutes.post('/signup', userController.create);
 
-userRoutes.get('/dashboard/:id', checkJwt, checkRole, userController.dashboard);
+userRoutes.get('/dashboard/:id', checkJwt, userController.dashboard);
 
 userRoutes.delete('/:id', checkJwt, checkRole, userController.delete);
 
