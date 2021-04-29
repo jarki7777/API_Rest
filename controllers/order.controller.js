@@ -31,7 +31,7 @@ export const orderController = {
             const skip = parseInt(req.query.skip);
             const limit = parseInt(req.query.limit);
 
-            const orderList = await Orders.find({ user: user }).select('date returnDate')
+            const orderList = await Orders.find({ user: user }).sort([['date', -1]]).select('date returnDate')
             .skip(skip).limit(limit).populate('movie', 'title poster');
 
             const count = Math.ceil(await Orders.countDocuments(orderList) / 10);
