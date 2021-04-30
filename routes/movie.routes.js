@@ -16,4 +16,8 @@ movieRoutes.patch('/:id', checkRole, movieController.update);
 
 movieRoutes.delete('/:id', checkRole, movieController.delete);
 
+movieRoutes.get('/genre', movieController.listByGenre);
+
+movieRoutes.get('/performer', movieController.listByPerformer);
+
 export default movieRoutes;

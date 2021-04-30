@@ -61,6 +61,7 @@ export const movieController = {
             const newGenre = req.body.genre;
             const newDirector = req.body.director;
             const newMainCast = req.body.mainCast;
+            const newSynopsis = req.body.synopsis;
 
             if (newTitle) await Movies.findByIdAndUpdate({ _id: id }, { $set: { title: newTitle } });
             if (newDate) await Movies.findByIdAndUpdate({ _id: id }, { $set: { releaseDate: newDate } });
@@ -68,6 +69,7 @@ export const movieController = {
             if (newGenre) await Movies.findByIdAndUpdate({ _id: id }, { $set: { genre: newGenre } });
             if (newDirector) await Movies.findByIdAndUpdate({ _id: id }, { $set: { director: newDirector } });
             if (newMainCast) await Movies.findByIdAndUpdate({ _id: id }, { $set: { mainCast: newMainCast } });
+            if (newSynopsis) await Movies.findByIdAndUpdate({ _id: id }, { $set: { synopsis: newSynopsis } });
             
             res.sendStatus(202);
         } catch (e) {
@@ -80,6 +82,36 @@ export const movieController = {
             const id = req.params.id;
             const movie = await Movies.findByIdAndDelete({ _id: id });
             checkUrl(id, movie, res);
+        } catch (e) {
+            console.log(e);
+            res.status(400).send({ 'message': e.message });
+        }
+    },
+    listByGenre: async (req, res) => {
+        try {
+
+            const genre = req.query.genre;
+            const limit = parseInt(req.query.limit);
+
+            const movieList = await Movies.find({ genre: { $regex: new RegExp(genre, "i") } }).limit(limit);
+            
+            res.status(201).send(movieList);
+
+        } catch (e) {
+            console.log(e);
+            res.status(400).send({ 'message': e.message });;
+        }
+    },
+    listByPerformer: async (req, res) => {
+        try {
+            
+            const performer = req.query.performer;
+            const limit = parseInt(req.query.limit);
+
+            const movieList = await Movies.find({ mainCast: { $regex: new RegExp(performer, "i") } }).limit(limit);
+            
+            res.status(201).send(movieList);
+            
         } catch (e) {
             console.log(e);
             res.status(400).send({ 'message': e.message });

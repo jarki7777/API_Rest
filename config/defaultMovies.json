@@ -1,522 +1,2289 @@
-[{
-  "_id": "605f1181eea0db3864d64ad7",
-  "genre": [
-    "Adventure",
-    "Drama",
-    "Sci-Fi"
-  ],
-  "mainCast": [
-    "Matthew McConaughey",
-    "Anne Hathaway",
-    "Jessica Chastain"
-  ],
-  "title": "Interstellar",
-  "releaseDate": "2014-11-07T00:00:00Z",
-  "ageRate": "PG-13",
-  "director": "Christopher Nolan",
-  "poster": "interstellar.jpg"
-},{
-  "_id": "605f12afeea0db3864d64ad8",
-  "genre": [
-    "Action",
-    "Adventure",
-    "Sci-Fi"
-  ],
-  "mainCast": [
-    "Leonardo DiCaprio",
-    "Joseph Gordon-Levitt",
-    "Elliot Page"
-  ],
-  "title": "Inception",
-  "releaseDate": "2010-07-16T00:00:00Z",
-  "ageRate": "PG-13",
-  "director": "Christopher Nolan",
-  "poster": "inception.jpg"
-},{
-  "_id": "605f12faeea0db3864d64ad9",
-  "genre": [
-    "Action",
-    "Adventure",
-    "Sci-Fi"
-  ],
-  "mainCast": [
-    "Sam Neill",
-    "Laura Dern",
-    "Jeff Goldblum"
-  ],
-  "title": "Jurassic Park",
-  "releaseDate":  "1993-06-11T00:00:00Z",
-  "ageRate": "PG-13",
-  "director": "Steven Spielberg",
-  "poster": "jurassic_park.jpg"
-},{
-  "_id": "605f13a3eea0db3864d64ada",
-  "genre": [
-    "Action",
-    "Crime",
-    "Drama"
-  ],
-  "mainCast": [
-    "Christian Bale",
-    "Heath Ledger",
-    "Aaron Eckhart"
-  ],
-  "title": "The Dark Knight",
-  "releaseDate": "2008-07-18T00:00:00Z",
-  "ageRate": "PG-13",
-  "director": "Christopher Nolan",
-  "poster": "the_dark_knight.jpg"
-},{
-  "_id": "605f146eeea0db3864d64adb",
-  "genre": [
-    "Action",
-    "Drama",
-    "History"
-  ],
-  "mainCast": [
-    "Mel Gibson",
-    "Heath Ledger",
-    "Joely Richardson"
-  ],
-  "title": "The Patriot",
-  "releaseDate":  "2000-06-28T00:00:00Z",
-  "ageRate": "PG-13",
-  "director": "Roland Emmerich",
-  "poster": "the_patriot.jpg"
-},{
-  "_id": "605f15ceeea0db3864d64adc",
-  "genre": [
-    "Adventure",
-    "Drama",
-    "Sci-Fi"
-  ],
-  "mainCast": [
-    "Matt Damon",
-    "Jessica Chastain",
-    "Kristen Wiig"
-  ],
-  "title": "The Martian",
-  "releaseDate": "2015-10-02T00:00:00Z",
-  "ageRate": "PG-13",
-  "director": "Ridley Scott",
-  "poster": "the_martian.jpg"
-},{
-  "_id": "605f16f7eea0db3864d64add",
-  "genre": [
-    "Drama",
-    "Sci-Fi"
-  ],
-  "mainCast": [
-    "Amy Adams",
-    "Jeremy Renner",
-    "Forest Whitaker"
-  ],
-  "title": "Arrival",
-  "releaseDate": "2016-11-11T00:00:00Z",
-  "ageRate": "PG-13",
-  "director": "Denis Villeneuve",
-  "poster": "arrival.jpg"
-},{
-  "_id": "605f17c4eea0db3864d64ade",
-  "genre": [
-    "Action",
-    "Drama",
-    "Mystery"
-  ],
-  "mainCast": [
-    "Harrison Ford",
-    "Ryan Gosling",
-    "Ana de Armas"
-  ],
-  "title": "Blade Runner 2049",
-  "releaseDate": "2017-10-06T00:00:00Z",
-  "ageRate": "R",
-  "director": "Denis Villeneuve",
-  "poster": "blade_runner_2049.jpg"
-},{
-  "_id": "605f18baeea0db3864d64adf",
-  "genre": [
-    "Crime",
-    "Drama",
-    "Mystery"
-  ],
-  "mainCast": [
-    "Morgan Freeman",
-    "Brad Pitt",
-    "Kevin Spacey"
-  ],
-  "title": "Se7en",
-  "releaseDate": "1995-09-22T00:00:00Z",
-  "ageRate": "R",
-  "director": "David Fincher",
-  "poster": "se7en.jpg"
-},{
-  "_id": "605f190ceea0db3864d64ae0",
-  "genre": [
-    "Adventure",
-    "Drama",
-    "War"
-  ],
-  "mainCast": [
-    "Brad Pitt",
-    "Diane Kruger",
-    "Eli Roth"
-  ],
-  "title": "Inglourious Basterds",
-  "releaseDate": "2009-08-21T00:00:00Z",
-  "ageRate": "R",
-  "director": "Quentin Tarantino",
-  "poster": "inglorious_basterds.jpg"
-},{
-  "_id": "605f1a2feea0db3864d64ae1",
-  "genre": [
-    "Crime",
-    "Drama",
-    "Mystery"
-  ],
-  "mainCast": [
-    "Samuel L. Jackson",
-    "Kurt Russell",
-    "Jennifer Jason Leigh"
-  ],
-  "title": "The Hateful Eight",
-  "releaseDate": "2015-12-29T23:00:00Z",
-  "ageRate": "R",
-  "director": "Quentin Tarantino",
-  "poster": "the_hateful_eight.jpg"
-},{
-  "_id": "605f1cbceea0db3864d64ae2",
-  "genre": [
-    "Biography",
-    "Crime",
-    "Drama"
-  ],
-  "mainCast": [
-    "Leonardo DiCaprio",
-    "Jonah Hill",
-    "Margot Robbie"
-  ],
-  "title": "The Wolf of Wall Street",
-  "releaseDate": "2013-12-25T00:00:00Z",
-  "ageRate": "R",
-  "director": "Martin Scorsese",
-  "poster": "the_wolf_of_wall_street.jpg"
-},{
-  "_id": "605f1e40eea0db3864d64ae3",
-  "genre": [
-    "Action",
-    "Drama"
-  ],
-  "mainCast": [
-    "Tom Cruise",
-    "Tim Robbins",
-    "Kelly McGillis"
-  ],
-  "title": "Top Gun",
-  "releaseDate": "1986-05-16T00:00:00Z",
-  "ageRate": "PG",
-  "director": "Tony Scott",
-  "poster": "top_gun.jpg"
-},{
-  "_id": "605f1e81eea0db3864d64ae4",
-  "genre": [
-    "Action",
-    "Drama"
-  ],
-  "mainCast": [
-    "Tom Cruise",
-    "Ken Watanabe",
-    "Billy Connolly"
-  ],
-  "title": "The Last Samurai",
-  "releaseDate": "2003-12-05T00:00:00Z",
-  "ageRate": "R",
-  "director": "Edward Zwick",
-  "poster": "the_last_samurai.jpg"
-},{
-  "_id": "605f1ee5eea0db3864d64ae5",
-  "genre": [
-    "Action",
-    "Adventure",
-    "Sci-Fi"
-  ],
-  "mainCast": [
-    "Tom Cruise",
-    "Emily Blunt",
-    "Bill Paxton"
-  ],
-  "title": "Edge of Tomorrow",
-  "releaseDate": "2014-06-06T00:00:00Z",
-  "ageRate": "PG-13",
-  "director": "Doug Liman",
-  "poster": "edge_of_tomorrow.jpg"
-},{
-  "_id": "605f25b0eea0db3864d64ae6",
-  "genre": [
-    "Action",
-    "Adventure",
-    "Sci-Fi"
-  ],
-  "mainCast": [
-    "Tom Cruise",
-    "Morgan Freeman",
-    "Andrea Riseborough"
-  ],
-  "title": "Oblivion",
-  "releaseDate": "2013-04-19T00:00:00Z",
-  "ageRate": "PG-13",
-  "director": "Joseph Kosinski",
-  "poster": "oblivion.jpg"
-},{
-  "_id": "605f2759eea0db3864d64ae7",
-  "genre": [
-    "Comedy",
-    "Fantasy"
-  ],
-  "mainCast": [
-    "Jim Carrey",
-    "Maura Tierney",
-    "Amanda Donohoeh"
-  ],
-  "title": "Liar Liar",
-  "releaseDate": "1997-03-21T00:00:00Z",
-  "ageRate": "PG-13",
-  "director": "Tom Shadyac",
-  "poster": "liar_liar.jpg"
-},{
-  "_id": "605f279feea0db3864d64ae8",
-  "genre": [
-    "Adventure",
-    "Drama",
-    "Romance"
-  ],
-  "mainCast": [
-    "Tom Hanks",
-    "Helen Hunt",
-    "Paul Sanchez"
-  ],
-  "title": "Cast Away",
-  "releaseDate": "2000-12-22T00:00:00Z",
-  "ageRate": "PG-13",
-  "director": "Robert Zemeckis",
-  "poster": "cast_away.jpg"
-},{
-  "_id": "605f27e9eea0db3864d64ae9",
-  "genre": [
-    "Drama",
-    "Romance"
-  ],
-  "mainCast": [
-    "Tom Hanks",
-    "Robin Wright",
-    "Gary Sinise"
-  ],
-  "title": "Forrest Gump",
-  "releaseDate": "6 July 1994",
-  "ageRate": "PG-13",
-  "director": "Robert Zemeckis",
-  "poster": "forrest_gump.jpg"
-},{
-  "_id": "605f2829eea0db3864d64aea",
-  "genre": [
-    "Animation",
-    "Adventure",
-    "Comedy"
-  ],
-  "mainCast": [
-    "Tom Hanks",
-    "Tim Allen",
-    "Don Rickles"
-  ],
-  "title": "Toy Story",
-  "releaseDate": "1995-11-22T00:00:00Z",
-  "ageRate": "G",
-  "director": "John Lasseter",
-  "poster": "toy_story.jpg"
-},{
-  "_id": "605f28f0eea0db3864d64aeb",
-  "genre": [
-    "Action",
-    "Adventure",
-    "Drama"
-  ],
-  "mainCast": [
-    "Will Smith",
-    "Alice Braga",
-    "Charlie Tahan"
-  ],
-  "title": "I Am Legend",
-  "releaseDate": "2007-12-14T00:00:00Z",
-  "ageRate": "PG-13",
-  "director": "Francis Lawrence",
-  "poster": "i_am_legend.jpg"
-},{
-  "_id": "605f2940eea0db3864d64aec",
-  "genre": [
-    "Biography",
-    "Drama"
-  ],
-  "mainCast": [
-    "Will Smith",
-    "Thandie Newton",
-    "Jaden Smith"
-  ],
-  "title": "The Pursuit of Happyness",
-  "releaseDate": "2006-12-15T00:00:00Z",
-  "ageRate": "PG-13",
-  "director": "Gabriele Muccino",
-  "poster": "the_pursuit_of_happyness.jpg"
-},{
-  "_id": "605f299feea0db3864d64aed",
-  "genre": [
-    "Action",
-    "Drama",
-    "Sci-Fi"
-  ],
-  "mainCast": [
-    "Will Smith",
-    "Bridget Moynahan",
-    "Bruce Greenwood"
-  ],
-  "title": "I, Robot",
-  "releaseDate": "2004-07-16T00:00:00Z",
-  "ageRate": "PG-13",
-  "director": "Alex Proyas",
-  "poster": "i_robot.jpg"
-},{
-  "_id": "605f2a80eea0db3864d64aee",
-  "genre": [
-    "Action",
-    "Adventure",
-    "Drama"
-  ],
-  "mainCast": [
-    "Elijah Wood",
-    "Ian McKellen",
-    "Orlando Bloom"
-  ],
-  "title": "The Lord of the Rings: The Fellowship of the Ring",
-  "releaseDate": "2001-12-19T00:00:00Z",
-  "ageRate": "PG-13",
-  "director": "Peter Jackson",
-  "poster": "the_lord_of_the_rings_the_fellowship_of_the_ring.jpg"
-},{
-  "_id": "605f2acceea0db3864d64aef",
-  "genre": [
-    "Action",
-    "Adventure",
-    "Drama"
-  ],
-  "mainCast": [
-    "Elijah Wood",
-    "Viggo Mortensen",
-    "Ian McKellen"
-  ],
-  "title": "The Lord of the Rings: The Return of the King",
-  "releaseDate": "2003-12-17T00:00:00Z",
-  "ageRate": "PG-13",
-  "director": "Peter Jackson",
-  "poster": "the_lord_of_the_rings_the_return_of_the_king.jpg"
-},{
-  "_id": "605f2b10eea0db3864d64af0",
-  "genre": [
-    "Action",
-    "Adventure",
-    "Drama"
-  ],
-  "mainCast": [
-    "Elijah Wood",
-    "Viggo Mortensen",
-    "Ian McKellen"
-  ],
-  "title": "The Lord of the Rings: The Two Towers",
-  "releaseDate": "2002-12-18T00:00:00Z",
-  "ageRate": "PG-13",
-  "director": "Peter Jackson",
-  "poster": "the_lord_of_the_rings_the_two_towers.jpg"
-},{
-  "_id": "605f358eeea0db3864d64af1",
-  "genre": [
-    "Action",
-    "Adventure",
-    "Comedy"
-  ],
-  "mainCast": [
-    "Ryan Reynolds",
-    "Morena Baccarin",
-    "T.J. Miller"
-  ],
-  "title": "Deadpool",
-  "releaseDate": "2016-02-12T00:00:00Z",
-  "ageRate": "R",
-  "director": "Tim Miller",
-  "poster": "deadpool.jpg"
-},{
-  "_id": "605f35fceea0db3864d64af2",
-  "genre": [
-    "Action",
-    "Sci-Fi",
-    "Thriller"
-  ],
-  "mainCast": [
-    "John David Washington",
-    "Robert Pattinson",
-    "Elizabeth Debicki"
-  ],
-  "title": "Tenet",
-  "releaseDate": "2020-09-03T00:00:00Z",
-  "ageRate": "PG-13",
-  "director": "Christopher Nolan",
-  "poster": "tenet.jpg"
-},{
-  "_id": "605f3910eea0db3864d64af3",
-  "genre": [
-    "Action",
-    "Sci-Fi",
-    "Thriller"
-  ],
-  "mainCast": [
-    "Matthew Broderick",
-    "Jean Reno",
-    "Maria Pitillo"
-  ],
-  "title": "Godzilla",
-  "releaseDate": "1998-05-20T00:00:00Z",
-  "ageRate": "PG-13",
-  "director": "Roland Emmerich",
-  "poster": "godzilla.jpg"
-},{
-  "_id": "605f76a7680d50088c8eda9b",
-  "genre": [
-    "Animation",
-    "Adventure",
-    "Family"
-  ],
-  "mainCast": [
-    "Ming-Na Wen",
-    "Eddie Murphy",
-    "BD Wong"
-  ],
-  "title": "Mulan",
-  "releaseDate": "1998-06-19T00:00:00Z",
-  "ageRate": "G",
-  "director": "Tony Bancroft",
-  "poster": "mulan.jpg"
-},{
-  "_id": "606091dbc51ad04f90596d52",
-  "title": "Hercules",
-  "releaseDate": "1997-06-27T00:00:00Z",
-  "ageRate": "G",
-  "genre": [
-    "Animation",
-    "Adventure",
-    "Comedy"
-  ],
-  "director": "Ron Clements",
-  "mainCast": [
-    "Tate Donovan",
-    "Susan Egan",
-    "James Woods"
-  ],
-  "poster": "hercules.jpg"
-}]
+[
+  {
+    "_id": "605f1181eea0db3864d64ad7",
+    "genre": [
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "mainCast": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain"
+    ],
+    "title": "Interstellar",
+    "releaseDate": "2014-11-07T00:00:00Z",
+    "ageRate": "PG-13",
+    "director": "Christopher Nolan",
+    "poster": "interstellar.jpg",
+    "synopsis": "Un equipo de exploradores viaja a través de un agujero de gusano en el espacio en un intento por garantizar la supervivencia de la humanidad."
+  },
+  {
+    "_id": "605f12afeea0db3864d64ad8",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "mainCast": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt",
+      "Elliot Page"
+    ],
+    "title": "Inception",
+    "releaseDate": "2010-07-16T00:00:00Z",
+    "ageRate": "PG-13",
+    "director": "Christopher Nolan",
+    "poster": "inception.jpg",
+    "synopsis": "Un ladrón que roba secretos corporativos mediante el uso de tecnología para compartir sueños tiene la tarea inversa de plantar una idea en la mente de un director ejecutivo."
+  },
+  {
+    "_id": "605f12faeea0db3864d64ad9",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "mainCast": [
+      "Sam Neill",
+      "Laura Dern",
+      "Jeff Goldblum"
+    ],
+    "title": "Jurassic Park",
+    "releaseDate": "1993-06-11T00:00:00Z",
+    "ageRate": "PG-13",
+    "director": "Steven Spielberg",
+    "poster": "jurassic_park.jpg",
+    "synopsis": "Un paleontólogo pragmático que visita un parque temático casi completo tiene la tarea de proteger a un par de niños después de que un corte de energía provoque que los dinosaurios clonados del parque se suelten."
+  },
+  {
+    "_id": "605f13a3eea0db3864d64ada",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "mainCast": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart"
+    ],
+    "title": "The Dark Knight",
+    "releaseDate": "2008-07-18T00:00:00Z",
+    "ageRate": "PG-13",
+    "director": "Christopher Nolan",
+    "poster": "the_dark_knight.jpg",
+    "synopsis": "Cuando la amenaza conocida como el Joker causa estragos y caos en la gente de Gotham, Batman debe aceptar una de las mayores pruebas psicológicas y físicas de su capacidad para luchar contra la injusticia."
+  },
+  {
+    "_id": "605f146eeea0db3864d64adb",
+    "genre": [
+      "Action",
+      "Drama",
+      "History"
+    ],
+    "mainCast": [
+      "Mel Gibson",
+      "Heath Ledger",
+      "Joely Richardson"
+    ],
+    "title": "The Patriot",
+    "releaseDate": "2000-06-28T00:00:00Z",
+    "ageRate": "PG-13",
+    "director": "Roland Emmerich",
+    "poster": "the_patriot.jpg",
+    "synopsis": "El pacífico agricultor Benjamin Martin se ve impulsado a liderar la Milicia Colonial durante la Revolución Americana cuando un sádico oficial británico asesina a su hijo."
+  },
+  {
+    "_id": "605f15ceeea0db3864d64adc",
+    "genre": [
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "mainCast": [
+      "Matt Damon",
+      "Jessica Chastain",
+      "Kristen Wiig"
+    ],
+    "title": "The Martian",
+    "releaseDate": "2015-10-02T00:00:00Z",
+    "ageRate": "PG-13",
+    "director": "Ridley Scott",
+    "poster": "the_martian.jpg",
+    "synopsis": "Un astronauta se queda varado en Marte después de que su equipo lo asume muerto, y debe confiar en su ingenio para encontrar una manera de indicarle a la Tierra que está vivo."
+  },
+  {
+    "_id": "605f16f7eea0db3864d64add",
+    "genre": [
+      "Drama",
+      "Sci-Fi"
+    ],
+    "mainCast": [
+      "Amy Adams",
+      "Jeremy Renner",
+      "Forest Whitaker"
+    ],
+    "title": "Arrival",
+    "releaseDate": "2016-11-11T00:00:00Z",
+    "ageRate": "PG-13",
+    "director": "Denis Villeneuve",
+    "poster": "arrival.jpg",
+    "synopsis": "Un lingüista trabaja con los militares para comunicarse con formas de vida extraterrestres después de que aparezcan doce misteriosas naves espaciales alrededor del mundo."
+  },
+  {
+    "_id": "605f17c4eea0db3864d64ade",
+    "genre": [
+      "Action",
+      "Drama",
+      "Mystery"
+    ],
+    "mainCast": [
+      "Harrison Ford",
+      "Ryan Gosling",
+      "Ana de Armas"
+    ],
+    "title": "Blade Runner 2049",
+    "releaseDate": "2017-10-06T00:00:00Z",
+    "ageRate": "R",
+    "director": "Denis Villeneuve",
+    "poster": "blade_runner_2049.jpg",
+    "synopsis": "El descubrimiento del joven Blade Runner K de un secreto enterrado hace mucho tiempo lo lleva a localizar al ex Blade Runner Rick Deckard, que ha estado desaparecido durante treinta años."
+  },
+  {
+    "_id": "605f18baeea0db3864d64adf",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "mainCast": [
+      "Morgan Freeman",
+      "Brad Pitt",
+      "Kevin Spacey"
+    ],
+    "title": "Se7en",
+    "releaseDate": "1995-09-22T00:00:00Z",
+    "ageRate": "R",
+    "director": "David Fincher",
+    "poster": "se7en.jpg",
+    "synopsis": "Dos detectives, un novato y un veterano, cazan a un asesino en serie que utiliza los siete pecados capitales como motivos."
+  },
+  {
+    "_id": "605f190ceea0db3864d64ae0",
+    "genre": [
+      "Adventure",
+      "Drama",
+      "War"
+    ],
+    "mainCast": [
+      "Brad Pitt",
+      "Diane Kruger",
+      "Eli Roth"
+    ],
+    "title": "Inglourious Basterds",
+    "releaseDate": "2009-08-21T00:00:00Z",
+    "ageRate": "R",
+    "director": "Quentin Tarantino",
+    "poster": "inglorious_basterds.jpg",
+    "synopsis": "En la Francia ocupada por los nazis durante la Segunda Guerra Mundial, un plan para asesinar a los líderes nazis por parte de un grupo de soldados judíos estadounidenses coincide con los planes vengativos del propietario de un teatro."
+  },
+  {
+    "_id": "605f1a2feea0db3864d64ae1",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "mainCast": [
+      "Samuel L. Jackson",
+      "Kurt Russell",
+      "Jennifer Jason Leigh"
+    ],
+    "title": "The Hateful Eight",
+    "releaseDate": "2015-12-29T23:00:00Z",
+    "ageRate": "R",
+    "director": "Quentin Tarantino",
+    "poster": "the_hateful_eight.jpg",
+    "synopsis": "En pleno invierno de Wyoming, un cazarrecompensas y su prisionero encuentran refugio en una cabaña actualmente habitada por una colección de personajes nefastos."
+  },
+  {
+    "_id": "605f1cbceea0db3864d64ae2",
+    "genre": [
+      "Biography",
+      "Crime",
+      "Drama"
+    ],
+    "mainCast": [
+      "Leonardo DiCaprio",
+      "Jonah Hill",
+      "Margot Robbie"
+    ],
+    "title": "The Wolf of Wall Street",
+    "releaseDate": "2013-12-25T00:00:00Z",
+    "ageRate": "R",
+    "director": "Martin Scorsese",
+    "poster": "the_wolf_of_wall_street.jpg",
+    "synopsis": "Basado en la historia real de Jordan Belfort, desde su ascenso a un adinerado corredor de bolsa que vive la gran vida hasta su caída que involucra el crimen, la corrupción y el gobierno federal."
+  },
+  {
+    "_id": "605f1e40eea0db3864d64ae3",
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "mainCast": [
+      "Tom Cruise",
+      "Tim Robbins",
+      "Kelly McGillis"
+    ],
+    "title": "Top Gun",
+    "releaseDate": "1986-05-16T00:00:00Z",
+    "ageRate": "PG",
+    "director": "Tony Scott",
+    "poster": "top_gun.jpg",
+    "synopsis": "Mientras los estudiantes de la escuela de armas de combate de élite de la Marina de los Estados Unidos compiten para ser los mejores en la clase, un joven piloto atrevido aprende algunas cosas de un instructor civil que no se enseñan en el aula."
+  },
+  {
+    "_id": "605f1e81eea0db3864d64ae4",
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "mainCast": [
+      "Tom Cruise",
+      "Ken Watanabe",
+      "Billy Connolly"
+    ],
+    "title": "The Last Samurai",
+    "releaseDate": "2003-12-05T00:00:00Z",
+    "ageRate": "R",
+    "director": "Edward Zwick",
+    "poster": "the_last_samurai.jpg",
+    "synopsis": "Un asesor militar estadounidense abraza la cultura samurái para la que fue contratado para destruir después de ser capturado en la batalla."
+  },
+  {
+    "_id": "605f1ee5eea0db3864d64ae5",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "mainCast": [
+      "Tom Cruise",
+      "Emily Blunt",
+      "Bill Paxton"
+    ],
+    "title": "Edge of Tomorrow",
+    "releaseDate": "2014-06-06T00:00:00Z",
+    "ageRate": "PG-13",
+    "director": "Doug Liman",
+    "poster": "edge_of_tomorrow.jpg",
+    "synopsis": "Un soldado que lucha contra alienígenas puede revivir el mismo día una y otra vez, el día reiniciando cada vez que muere."
+  },
+  {
+    "_id": "605f25b0eea0db3864d64ae6",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "mainCast": [
+      "Tom Cruise",
+      "Morgan Freeman",
+      "Andrea Riseborough"
+    ],
+    "title": "Oblivion",
+    "releaseDate": "2013-04-19T00:00:00Z",
+    "ageRate": "PG-13",
+    "director": "Joseph Kosinski",
+    "poster": "oblivion.jpg",
+    "synopsis": "Un veterano asignado para extraer los recursos restantes de la Tierra comienza a cuestionar lo que sabe sobre su misión y sobre sí mismo."
+  },
+  {
+    "_id": "605f2759eea0db3864d64ae7",
+    "genre": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "mainCast": [
+      "Jim Carrey",
+      "Maura Tierney",
+      "Amanda Donohoeh"
+    ],
+    "title": "Liar Liar",
+    "releaseDate": "1997-03-21T00:00:00Z",
+    "ageRate": "PG-13",
+    "director": "Tom Shadyac",
+    "poster": "liar_liar.jpg",
+    "synopsis": "Un abogado de vía rápida no puede mentir durante 24 horas debido al deseo de cumpleaños de su hijo después de decepcionar a su hijo por última vez."
+  },
+  {
+    "_id": "605f279feea0db3864d64ae8",
+    "genre": [
+      "Adventure",
+      "Drama",
+      "Romance"
+    ],
+    "mainCast": [
+      "Tom Hanks",
+      "Helen Hunt",
+      "Paul Sanchez"
+    ],
+    "title": "Cast Away",
+    "releaseDate": "2000-12-22T00:00:00Z",
+    "ageRate": "PG-13",
+    "director": "Robert Zemeckis",
+    "poster": "cast_away.jpg",
+    "synopsis": "Un ejecutivo de FedEx sufre una transformación física y emocional después de un aterrizaje forzoso en una isla desierta."
+  },
+  {
+    "_id": "605f27e9eea0db3864d64ae9",
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "mainCast": [
+      "Tom Hanks",
+      "Robin Wright",
+      "Gary Sinise"
+    ],
+    "title": "Forrest Gump",
+    "releaseDate": "6 July 1994",
+    "ageRate": "PG-13",
+    "director": "Robert Zemeckis",
+    "poster": "forrest_gump.jpg",
+    "synopsis": "Las presidencias de Kennedy y Johnson, la guerra de Vietnam, el escándalo de Watergate y otros eventos históricos se desarrollan desde la perspectiva de un hombre de Alabama con un coeficiente intelectual de 75, cuyo único deseo es reunirse con su novia de la infancia."
+  },
+  {
+    "_id": "605f2829eea0db3864d64aea",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "mainCast": [
+      "Tom Hanks",
+      "Tim Allen",
+      "Don Rickles"
+    ],
+    "title": "Toy Story",
+    "releaseDate": "1995-11-22T00:00:00Z",
+    "ageRate": "G",
+    "director": "John Lasseter",
+    "poster": "toy_story.jpg",
+    "synopsis": "Un muñeco de vaquero se siente profundamente amenazado y celoso cuando una nueva figura de astronauta lo suplanta como juguete superior en la habitación de un niño."
+  },
+  {
+    "_id": "605f28f0eea0db3864d64aeb",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "mainCast": [
+      "Will Smith",
+      "Alice Braga",
+      "Charlie Tahan"
+    ],
+    "title": "I Am Legend",
+    "releaseDate": "2007-12-14T00:00:00Z",
+    "ageRate": "PG-13",
+    "director": "Francis Lawrence",
+    "poster": "i_am_legend.jpg",
+    "synopsis": "Años después de que una plaga mata a la mayor parte de la humanidad y transforma al resto en monstruos, el único superviviente en la ciudad de Nueva York lucha valientemente para encontrar una cura."
+  },
+  {
+    "_id": "605f2940eea0db3864d64aec",
+    "genre": [
+      "Biography",
+      "Drama"
+    ],
+    "mainCast": [
+      "Will Smith",
+      "Thandie Newton",
+      "Jaden Smith"
+    ],
+    "title": "The Pursuit of Happyness",
+    "releaseDate": "2006-12-15T00:00:00Z",
+    "ageRate": "PG-13",
+    "director": "Gabriele Muccino",
+    "poster": "the_pursuit_of_happyness.jpg",
+    "synopsis": "Un vendedor con dificultades toma la custodia de su hijo mientras está listo para comenzar una carrera profesional que le cambiará la vida."
+  },
+  {
+    "_id": "605f299feea0db3864d64aed",
+    "genre": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "mainCast": [
+      "Will Smith",
+      "Bridget Moynahan",
+      "Bruce Greenwood"
+    ],
+    "title": "I, Robot",
+    "releaseDate": "2004-07-16T00:00:00Z",
+    "ageRate": "PG-13",
+    "director": "Alex Proyas",
+    "poster": "i_robot.jpg",
+    "synopsis": "En 2035, un policía tecnofóbico investiga un crimen que pudo haber sido perpetrado por un robot, lo que genera una amenaza mayor para la humanidad."
+  },
+  {
+    "_id": "605f2a80eea0db3864d64aee",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "mainCast": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Orlando Bloom"
+    ],
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "releaseDate": "2001-12-19T00:00:00Z",
+    "ageRate": "PG-13",
+    "director": "Peter Jackson",
+    "poster": "the_lord_of_the_rings_the_fellowship_of_the_ring.jpg",
+    "synopsis": "Un humilde Hobbit de la Comarca y ocho compañeros emprenden un viaje para destruir el poderoso Anillo Único y salvar la Tierra Media del Señor Oscuro Sauron."
+  },
+  {
+    "_id": "605f2acceea0db3864d64aef",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "mainCast": [
+      "Elijah Wood",
+      "Viggo Mortensen",
+      "Ian McKellen"
+    ],
+    "title": "The Lord of the Rings: The Return of the King",
+    "releaseDate": "2003-12-17T00:00:00Z",
+    "ageRate": "PG-13",
+    "director": "Peter Jackson",
+    "poster": "the_lord_of_the_rings_the_return_of_the_king.jpg",
+    "synopsis": "Gandalf y Aragorn lideran el Mundo de los Hombres contra el ejército de Sauron para desviar su mirada de Frodo y Sam mientras se acercan al Monte Doom con el Anillo Único."
+  },
+  {
+    "_id": "605f2b10eea0db3864d64af0",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "mainCast": [
+      "Elijah Wood",
+      "Viggo Mortensen",
+      "Ian McKellen"
+    ],
+    "title": "The Lord of the Rings: The Two Towers",
+    "releaseDate": "2002-12-18T00:00:00Z",
+    "ageRate": "PG-13",
+    "director": "Peter Jackson",
+    "poster": "the_lord_of_the_rings_the_two_towers.jpg",
+    "synopsis": "Mientras Frodo y Sam se acercan a Mordor con la ayuda del astuto Gollum, la fraternidad dividida se opone al nuevo aliado de Sauron, Saruman, y sus hordas de Isengard."
+  },
+  {
+    "_id": "605f358eeea0db3864d64af1",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "mainCast": [
+      "Ryan Reynolds",
+      "Morena Baccarin",
+      "T.J. Miller"
+    ],
+    "title": "Deadpool",
+    "releaseDate": "2016-02-12T00:00:00Z",
+    "ageRate": "R",
+    "director": "Tim Miller",
+    "poster": "deadpool.jpg",
+    "synopsis": "Un mercenario bromista es experimentado y se vuelve inmortal pero feo, y se propone rastrear al hombre que arruinó su apariencia."
+  },
+  {
+    "_id": "605f35fceea0db3864d64af2",
+    "genre": [
+      "Action",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "mainCast": [
+      "John David Washington",
+      "Robert Pattinson",
+      "Elizabeth Debicki"
+    ],
+    "title": "Tenet",
+    "releaseDate": "2020-09-03T00:00:00Z",
+    "ageRate": "PG-13",
+    "director": "Christopher Nolan",
+    "poster": "tenet.jpg",
+    "synopsis": "Armado con una sola palabra, Tenet, y luchando por la supervivencia del mundo entero, un Protagonista viaja a través de un mundo crepuscular de espionaje internacional en una misión que se desarrollará en algo más allá del tiempo real."
+  },
+  {
+    "_id": "605f3910eea0db3864d64af3",
+    "genre": [
+      "Action",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "mainCast": [
+      "Matthew Broderick",
+      "Jean Reno",
+      "Maria Pitillo"
+    ],
+    "title": "Godzilla",
+    "releaseDate": "1998-05-20T00:00:00Z",
+    "ageRate": "PG-13",
+    "director": "Roland Emmerich",
+    "poster": "godzilla.jpg",
+    "synopsis": "Un monstruo reptil gigante sale a la superficie, dejando destrucción a su paso mientras avanza hacia la ciudad de Nueva York. Para detenerlo, un científico de lombrices de tierra, su ex novia reportera y otros héroes inverosímiles se unen para salvar su ciudad."
+  },
+  {
+    "_id": "605f76a7680d50088c8eda9b",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Family"
+    ],
+    "mainCast": [
+      "Ming-Na Wen",
+      "Eddie Murphy",
+      "BD Wong"
+    ],
+    "title": "Mulan",
+    "releaseDate": "1998-06-19T00:00:00Z",
+    "ageRate": "G",
+    "director": "Tony Bancroft",
+    "poster": "mulan.jpg",
+    "synopsis": "Para salvar a su padre de la muerte en el ejército, una joven doncella va en secreto en su lugar y se convierte en una de las heroínas más grandes de China en el proceso."
+  },
+  {
+    "_id": "606091dbc51ad04f90596d52",
+    "title": "Hercules",
+    "releaseDate": "1997-06-27T00:00:00Z",
+    "ageRate": "G",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Ron Clements",
+    "mainCast": [
+      "Tate Donovan",
+      "Susan Egan",
+      "James Woods"
+    ],
+    "poster": "hercules.jpg",
+    "synopsis": "El hijo de Zeus y Hera es despojado de su inmortalidad cuando era un bebé y debe convertirse en un verdadero héroe para recuperarla."
+  },
+  {
+    "_id": "608c1fd423508baf6ce15d3b",
+    "title": "Tarzan",
+    "releaseDate": "1999-06-18T00:00:00Z",
+    "ageRate": "G",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Family"
+    ],
+    "director": "Chris Buck, Kevin Lima",
+    "mainCast": [
+      "Tony Goldwyn",
+      "Minnie Driver",
+      "Brian Blessed"
+    ],
+    "poster": "tarzan.jpg",
+    "synopsis": "Un hombre criado por gorilas debe decidir a dónde pertenece realmente cuando descubre que es un ser humano."
+  },
+  {
+    "_id": "608c248ba78475698c57b28f",
+    "title": "The Little Mermaid",
+    "releaseDate": "1989-11-17T00:00:00Z",
+    "ageRate": "G",
+    "genre": [
+      "Animation",
+      "Fantasy",
+      "Family"
+    ],
+    "director": "Ron Clements, John Musker",
+    "mainCast": [
+      "Jodi Benson",
+      "Samuel E. Wright",
+      "Rene Auberjonois"
+    ],
+    "poster": "the_little_mermaid.jpg",
+    "synopsis": "Una princesa sirena hace un trato fáustico en un intento por convertirse en humana y ganarse el amor de un príncipe."
+  },
+  {
+    "_id": "608c258fa0bed1e406185ffa",
+    "title": "Pocahontas",
+    "releaseDate": "1995-06-23T00:00:00Z",
+    "ageRate": "G",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Drama"
+    ],
+    "director": "Mike Gabriel, Eric Goldberg",
+    "mainCast": [
+      "Mel Gibson",
+      "Linda Hunt",
+      "Christian Bale"
+    ],
+    "poster": "pocahontas.jpg",
+    "synopsis": "Un soldado inglés y la hija de un jefe algonquino comparten un romance cuando los colonos ingleses invaden la Virginia del siglo XVII."
+  },
+  {
+    "_id": "608c271996ae42293013710d",
+    "title": "Aladdin",
+    "releaseDate": "1992-11-25T00:00:00Z",
+    "ageRate": "G",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Ron Clements, John Musker",
+    "mainCast": [
+      "Scott Weinger",
+      "Robin Williams",
+      "Linda Larkin"
+    ],
+    "poster": "aladdin.jpg",
+    "synopsis": "Un pilluelo callejero de buen corazón y un gran visir hambriento de poder compiten por una lámpara mágica que tiene el poder de hacer realidad sus deseos más profundos."
+  },
+  {
+    "_id": "608c27e3bfb21ada76ff3e8a",
+    "title": "The Hunchback of Notre Dame",
+    "releaseDate": "1996-06-21T00:00:00Z",
+    "ageRate": "G",
+    "genre": [
+      "Animation",
+      "Drama",
+      "Family"
+    ],
+    "director": "Gary Trousdale, Kirk Wise",
+    "mainCast": [
+      "Demi Moore",
+      "Jason Alexander",
+      "Mary Kay Bergman"
+    ],
+    "poster": "the_hunchback_of_notre_dame.jpg",
+    "synopsis": "Un campanero deforme debe afirmar su independencia de un ministro del gobierno vicioso para ayudar a su amigo, un bailarín gitano."
+  },
+  {
+    "_id": "608c286a7888d1f5f198cc44",
+    "title": "Beauty and the Beast",
+    "releaseDate": "1991-11-22T00:00:00Z",
+    "ageRate": "G",
+    "genre": [
+      "Animation",
+      "Fantasy",
+      "Family"
+    ],
+    "director": "Gary Trousdale, Kirk Wise",
+    "mainCast": [
+      "Paige O'Hara",
+      "Robby Benson",
+      "Jesse Corti"
+    ],
+    "poster": "the_beauty_and_the_beast.jpg",
+    "synopsis": "Un príncipe maldijo a pasar sus días mientras un horrible monstruo se propone recuperar su humanidad ganándose el amor de una joven."
+  },
+  {
+    "_id": "608c29023f8ecf890f011b9d",
+    "title": "Lilo & Stitch",
+    "releaseDate": "2002-06-21T00:00:00Z",
+    "ageRate": "G",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Dean DeBlois, Chris Sanders",
+    "mainCast": [
+      "Daveigh Chase",
+      "Chris Sanders",
+      "Tia Carrere"
+    ],
+    "poster": "lilo_stitch.jpg",
+    "synopsis": "Una niña sin padres adopta un 'perro' de la perrera local, completamente inconsciente de que supuestamente se trata de un experimento científico peligroso que se ha refugiado en la Tierra y ahora se esconde de su creador y de quienes lo ven como una amenaza."
+  },
+  {
+    "_id": "608c29975ffd2843c6b5b004",
+    "title": "Brother Bear",
+    "releaseDate": "2003-11-01T00:00:00Z",
+    "ageRate": "G",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Aaron Blaise, Robert Walker",
+    "mainCast": [
+      "Joaquin Phoenix",
+      "Jeremy Suarez",
+      "Rick Moranis"
+    ],
+    "poster": "brother_bear.jpg",
+    "synopsis": "Cuando un joven cazador inuit mata innecesariamente a un oso, él mismo se convierte mágicamente en un oso como castigo con un cachorro hablador como su única guía para volver a cambiar."
+  },
+  {
+    "_id": "608c2a59561f99587fb01d00",
+    "title": "Atlantis: The Lost Empire",
+    "releaseDate": "2001-06-15T00:00:00Z",
+    "ageRate": "G",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Action"
+    ],
+    "director": "Gary Trousdale, Kirk Wise",
+    "mainCast": [
+      "Michael J. Fox",
+      "Jim Varney",
+      "Corey Burton"
+    ],
+    "poster": "atlantis_the_lost_empire.jpg",
+    "synopsis": "Un joven lingüista llamado Milo Thatch se une a un intrépido grupo de exploradores para encontrar el misterioso continente perdido de la Atlántida."
+  },
+  {
+    "_id": "608c2b4947209e247ec89cff",
+    "title": "Antz",
+    "releaseDate": "1998-10-02T00:00:00Z",
+    "ageRate": "PG",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Eric Darnell, Tim Johnson",
+    "mainCast": [
+      "Woody Allen",
+      "Sharon Stone",
+      "Gene Hackman"
+    ],
+    "poster": "antz.jpg",
+    "synopsis": "Una hormiga bastante neurótica intenta romper con su sociedad totalitaria mientras trata de ganarse el afecto de la princesa que ama."
+  },
+  {
+    "_id": "608c2c22e9a08d7300a7248d",
+    "title": "A Bug's Life",
+    "releaseDate": "1998-11-25T00:00:00Z",
+    "ageRate": "G",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "John Lasseter, Andrew Stanton",
+    "mainCast": [
+      "Kevin Spacey",
+      "Dave Foley",
+      "Julia Louis-Dreyfus"
+    ],
+    "poster": "a_bugs_life.jpg",
+    "synopsis": "Una hormiga inadaptada, que busca 'guerreros' para salvar a su colonia de los saltamontes codiciosos, recluta a un grupo de insectos que resultan ser una compañía de circo inepta."
+  },
+  {
+    "_id": "608c2d1e8925d12e3a0b85c4",
+    "title": "The Prince of Egypt",
+    "releaseDate": "1998-12-18T00:00:00Z",
+    "ageRate": "PG",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Drama"
+    ],
+    "director": "Brenda Chapman, Steve Hickner",
+    "mainCast": [
+      "Val Kilmer",
+      "Ralph Fiennes",
+      "Michelle Pfeiffer"
+    ],
+    "poster": "the_prince_of_egypt.jpg",
+    "synopsis": "El príncipe egipcio Moisés se entera de su identidad como hebreo y de su destino de convertirse en el libertador elegido de su pueblo."
+  },
+  {
+    "_id": "608c2db24a5a1cafd87193b4",
+    "title": "The Road to El Dorado",
+    "releaseDate": "2000-03-31T00:00:00Z",
+    "ageRate": "PG",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Bibo Bergeron , Don Paul",
+    "mainCast": [
+      "Kevin Kline",
+      "Kenneth Branagh",
+      "Rosie Perez"
+    ],
+    "poster": "the_road_to_el_dorado.jpg",
+    "synopsis": "Dos estafadores ponen sus manos en un mapa de la legendaria ciudad de oro, El Dorado."
+  },
+  {
+    "_id": "608c3021d63d11f3872b2d02",
+    "title": "Robots",
+    "releaseDate": "2005-03-11T00:00:00Z",
+    "ageRate": "PG",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Chris Wedge, Carlos Saldanha",
+    "mainCast": [
+      "Ewan McGregor",
+      "Halle Berry",
+      "Mel Brooks"
+    ],
+    "poster": "robots.jpg",
+    "synopsis": "En un mundo de robots, un joven inventor idealista viaja a la gran ciudad para unirse a la compañía de su inspiración, solo para encontrarse oponiéndose a su siniestra nueva administración."
+  },
+  {
+    "_id": "608c3d8eef8b0aa7f5a8dac5",
+    "title": "Shark Tale",
+    "releaseDate": "2004-10-01T00:00:00Z",
+    "ageRate": "PG",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Bibo Bergeron, Vicky Jenson",
+    "mainCast": [
+      "Will Smith",
+      "Robert De Niro",
+      "Renée Zellweger"
+    ],
+    "poster": "shark_tale.jpg",
+    "synopsis": "Cuando un hijo de un jefe tiburón gángster muere accidentalmente mientras estaba de caza, su presa potencial y su hermano vegetariano deciden usar el incidente para su propio beneficio."
+  },
+  {
+    "_id": "608c30cc2f6895e0f886746f",
+    "title": "Chicken Run",
+    "releaseDate": "2000-06-23T00:00:00Z",
+    "ageRate": "G",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Peter Lord, Nick Park",
+    "mainCast": [
+      "Mel Gibson",
+      "Julia Sawalha",
+      "Phil Daniels"
+    ],
+    "poster": "chicken_run.jpg",
+    "synopsis": "Cuando un gallo aparentemente vuela a una granja de pollos, las gallinas lo ven como una oportunidad para escapar de sus malvados dueños."
+  },
+  {
+    "_id": "608c31f8d9fd0a6f5cf211f7",
+    "title": "Madagascar",
+    "releaseDate": "2005-05-27T00:00:00Z",
+    "ageRate": "PG",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Eric Darnell, Tom McGrath",
+    "mainCast": [
+      "Chris Rock",
+      "Ben Stiller",
+      "David Schwimmer"
+    ],
+    "poster": "madagascar.jpg",
+    "synopsis": "Un grupo de animales que han pasado toda su vida en un zoológico de Nueva York terminan en las selvas de Madagascar y deben adaptarse a vivir en la naturaleza."
+  },
+  {
+    "_id": "608c327dbf779e432f6e6e67",
+    "title": "The Incredibles",
+    "releaseDate": "2004-11-05T00:00:00Z",
+    "ageRate": "PG",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Action"
+    ],
+    "director": "Brad Bird",
+    "mainCast": [
+      "Craig T. Nelson",
+      "Samuel L. Jackson",
+      "Holly Hunter"
+    ],
+    "poster": "the_incredibles.jpg",
+    "synopsis": "Una familia de superhéroes encubiertos, mientras intenta vivir la tranquila vida suburbana, se ve obligada a actuar para salvar el mundo."
+  },
+  {
+    "_id": "608c32f5147344c0d3840ee8",
+    "title": "Finding Nemo",
+    "releaseDate": "2003-05-30T00:00:00Z",
+    "ageRate": "G",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Andrew Stanton, Lee Unkrich",
+    "mainCast": [
+      "Albert Brooks",
+      "Ellen DeGeneres",
+      "Alexander Gould"
+    ],
+    "poster": "finding_nemo.jpg",
+    "synopsis": "Después de que su hijo es capturado en la Gran Barrera de Coral y llevado a Sydney, un tímido pez payaso emprende un viaje para llevarlo a casa."
+  },
+  {
+    "_id": "608c33a1082ea6e0d8ca0950",
+    "title": "Cars",
+    "releaseDate": "2006-06-09T00:00:00Z",
+    "ageRate": "G",
+    "genre": [
+      "Animation",
+      "Family",
+      "Comedy"
+    ],
+    "director": "John Lasseter, Joe Ranft",
+    "mainCast": [
+      "Owen Wilson",
+      "Bonnie Hunt",
+      "Paul Newman"
+    ],
+    "poster": "cars.jpg",
+    "synopsis": "Un auto de carreras llamado Lightning McQueen es asaltado en Radiator Springs, donde encuentra el verdadero significado de la amistad y la familia."
+  },
+  {
+    "_id": "608c34198be396bc40a209a2",
+    "title": "Monsters, Inc.",
+    "releaseDate": "2001-11-02T00:00:00Z",
+    "ageRate": "G",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Pete Docter, David Silverman",
+    "mainCast": [
+      "Billy Crystal",
+      "John Goodman",
+      "Mary Gibbs"
+    ],
+    "poster": "monsters_inc.jpg",
+    "synopsis": "Para impulsar la ciudad, los monstruos tienen que asustar a los niños para que griten. Sin embargo, los niños son tóxicos para los monstruos, y después de que un niño pasa, dos monstruos se dan cuenta de que las cosas pueden no ser lo que piensan."
+  },
+  {
+    "_id": "608c34accd845131aa2f6a7c",
+    "title": "Baby Driver",
+    "releaseDate": "2017-06-28T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "director": "Edgar Wright",
+    "mainCast": [
+      "Ansel Elgort",
+      "Jon Bernthal",
+      "Jon Hamm"
+    ],
+    "poster": "baby_driver.jpg",
+    "synopsis": "Después de ser obligado a trabajar para un jefe del crimen, un joven conductor que se escapa participa en un atraco condenado al fracaso."
+  },
+  {
+    "_id": "608c352aa0c7aa28c54782de",
+    "title": "Now You See Me",
+    "releaseDate": "2013-05-13T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Mystery",
+      "Crime",
+      "Thriller"
+    ],
+    "director": "Louis Leterrier",
+    "mainCast": [
+      "Jesse Eisenberg",
+      "Common",
+      "Mark Ruffalo"
+    ],
+    "poster": "now_you_see_me.jpg",
+    "synopsis": "Un F.B.I. El agente y un detective de la Interpol rastrean a un equipo de ilusionistas que realizan robos bancarios durante sus actuaciones y recompensan a su audiencia con el dinero."
+  },
+  {
+    "_id": "608c3645feb10d0efe829463",
+    "title": "Divergent",
+    "releaseDate": "2014-03-21T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Mystery",
+      "Adventure",
+      "Action"
+    ],
+    "director": "Neil Burger",
+    "mainCast": [
+      "Shailene Woodley",
+      "Theo James",
+      "Kate Winslet"
+    ],
+    "poster": "divergent.jpg",
+    "synopsis": "En un mundo dividido por facciones basadas en virtudes, Tris descubre que es divergente y no encajará. Cuando descubre un complot para destruir a los divergentes, Tris y los misteriosos Cuatro deben descubrir qué hace que los divergentes sean peligrosos antes de que sea demasiado tarde."
+  },
+  {
+    "_id": "608c36f6828551aa4bbe0cfc",
+    "title": "Insurgent",
+    "releaseDate": "2015-03-20T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Sci-Fi",
+      "Adventure",
+      "Action"
+    ],
+    "director": "Robert Schwentke",
+    "mainCast": [
+      "Shailene Woodley",
+      "Ansel Elgort",
+      "Theo James"
+    ],
+    "poster": "insurgent.jpg",
+    "synopsis": "Beatrice Prior debe enfrentarse a sus demonios internos y continuar su lucha contra una poderosa alianza que amenaza con destrozar a su sociedad con la ayuda de otros de su lado."
+  },
+  {
+    "_id": "608c37d489a06c60df1b5e86",
+    "title": "The Fault in Our Stars",
+    "releaseDate": "2014-06-06T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "director": "Josh Boone",
+    "mainCast": [
+      "Shailene Woodley",
+      "Ansel Elgort",
+      "Nat Wolff"
+    ],
+    "poster": "the_fault_in_our_stars.jpg",
+    "synopsis": "Dos pacientes adolescentes con cáncer comienzan un viaje de afirmación de vida para visitar a un autor solitario en Ámsterdam."
+  },
+  {
+    "_id": "608c389e328a8b98547aee2e",
+    "title": "Allegiant",
+    "releaseDate": "2016-03-18T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Mystery"
+    ],
+    "director": "Robert Schwentke",
+    "mainCast": [
+      "Shailene Woodley",
+      "Theo James",
+      "Jeff Daniels"
+    ],
+    "poster": "allegiant.jpg",
+    "synopsis": "Después de las trascendentales revelaciones de Insurgent, Tris debe escapar con Cuatro más allá del muro que rodea a Chicago, para descubrir finalmente la impactante verdad del mundo que los rodea."
+  },
+  {
+    "_id": "608c39339b159c22ef925210",
+    "title": "Sherlock Holmes",
+    "releaseDate": "2009-12-25T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Mystery"
+    ],
+    "director": "Guy Ritchie",
+    "mainCast": [
+      "Robert Downey Jr.",
+      "Jude Law",
+      "Rachel McAdams"
+    ],
+    "poster": "sherlock_holmes.jpg",
+    "synopsis": "El detective Sherlock Holmes y su incondicional compañero Watson se involucran en una batalla de ingenio y fuerza física con un némesis cuya trama es una amenaza para toda Inglaterra."
+  },
+  {
+    "_id": "608c39caf199434d61058f94",
+    "title": "Passengers",
+    "releaseDate": "2016-12-21T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Drama",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "director": "Morten Tyldum",
+    "mainCast": [
+      "Jennifer Lawrence",
+      "Chris Pratt",
+      "Michael Sheen"
+    ],
+    "poster": "passenger.jpg",
+    "synopsis": "Un mal funcionamiento en una cápsula para dormir en una nave espacial que viaja a un planeta colonia distante despierta a un pasajero 90 años antes."
+  },
+  {
+    "_id": "608c3a8410f1a7ca6044ebfa",
+    "title": "The Hunger Games: Mockingjay - Part 2",
+    "releaseDate": "2015-11-20T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "Francis Lawrence",
+    "mainCast": [
+      "Jennifer Lawrence",
+      "Josh Hutcherson",
+      "Liam Hemsworth"
+    ],
+    "poster": "the_hunger_games_mockingjay_part_2.jpg",
+    "synopsis": "Katniss y un equipo de rebeldes del Distrito 13 se preparan para la batalla final que decidirá el destino de Panem."
+  },
+  {
+    "_id": "608c3b3c2084b4fa415b546d",
+    "title": "The Hunger Games: Mockingjay - Part 1",
+    "releaseDate": "2014-11-21T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "Francis Lawrence",
+    "mainCast": [
+      "Jennifer Lawrence",
+      "Josh Hutcherson",
+      "Liam Hemsworth"
+    ],
+    "poster": "the_hunger_games_mockingjay_part_1.jpg",
+    "synopsis": "Katniss Everdeen está en el Distrito 13 después de destrozar los juegos para siempre. Bajo el liderazgo del presidente Coin y el consejo de sus amigos de confianza, Katniss extiende sus alas mientras lucha para salvar a Peeta y a una nación impulsada por su coraje."
+  },
+  {
+    "_id": "608c3bfb30ecdd099f0ced28",
+    "title": "The Hunger Games: Catching Fire",
+    "releaseDate": "2013-11-22T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Mystery"
+    ],
+    "director": "Francis Lawrence",
+    "mainCast": [
+      "Jennifer Lawrence",
+      "Josh Hutcherson",
+      "Liam Hemsworth"
+    ],
+    "poster": "the_hunger_games_catching_fire.jpg",
+    "synopsis": "Katniss Everdeen y Peeta Mellark se convierten en objetivos del Capitolio después de que su victoria en los 74 Juegos del Hambre provoque una rebelión en los Distritos de Panem."
+  },
+  {
+    "_id": "608c3c67cb1c5bc33744662f",
+    "title": "The Hunger Games",
+    "releaseDate": "2012-03-23T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "Gary Ross",
+    "mainCast": [
+      "Jennifer Lawrence",
+      "Josh Hutcherson",
+      "Liam Hemsworth"
+    ],
+    "poster": "the_hunger_games.jpg",
+    "synopsis": "Katniss Everdeen toma voluntariamente el lugar de su hermana menor en los Juegos del Hambre: una competencia televisada en la que dos adolescentes de cada uno de los doce distritos de Panem son elegidos al azar para luchar hasta la muerte."
+  },
+  {
+    "_id": "608c3cd22684e443d5fe2a93",
+    "title": "Kingsman: The Secret Service",
+    "releaseDate": "2014-02-13T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Matthew Vaughn",
+    "mainCast": [
+      "Colin Firth",
+      "Taron Egerton",
+      "Samuel L. Jackson"
+    ],
+    "poster": "kingsman_the_secret_service.jpg",
+    "synopsis": "Una organización de espías recluta a un niño de la calle prometedor en el programa de capacitación de la agencia, mientras que una amenaza global surge de un genio tecnológico retorcido."
+  },
+  {
+    "_id": "608c3e099f9ab4944e3ff4f2",
+    "title": "John Wick",
+    "releaseDate": "2014-10-24T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "director": "Chad Stahelski",
+    "mainCast": [
+      "Keanu Reeves",
+      "Michael Nyqvist",
+      "Alfie Allen"
+    ],
+    "poster": "john_wick.jpg",
+    "synopsis": "Un ex-sicario sale de su retiro para localizar a los gánsteres que mataron a su perro y le quitaron todo."
+  },
+  {
+    "_id": "608c3eb18ff62f107ee721aa",
+    "title": "The Social Network",
+    "releaseDate": "2010-10-01T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Biography",
+      "Drama"
+    ],
+    "director": "David Fincher",
+    "mainCast": [
+      "Jesse Eisenberg",
+      "Andrew Garfield",
+      "Justin Timberlake"
+    ],
+    "poster": "the_social_network.jpg",
+    "synopsis": "Mientras el estudiante de Harvard Mark Zuckerberg crea el sitio de redes sociales que se conocería como Facebook, es demandado por los gemelos que afirmaron que robó su idea, y por el cofundador que luego fue expulsado del negocio."
+  },
+  {
+    "_id": "608c3f35b6228a9291367825",
+    "title": "Captain Phillips",
+    "releaseDate": "2013-10-11T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Biography",
+      "Crime",
+      "Adventure"
+    ],
+    "director": "Paul Greengrass",
+    "mainCast": [
+      "Tom Hanks",
+      "Barkhad Abdi",
+      "Barkhad Abdirahman"
+    ],
+    "poster": "captain_phillips.jpg",
+    "synopsis": "La verdadera historia del capitán Richard Phillips y el secuestro en 2009 por piratas somalíes del MV Maersk Alabama, con bandera estadounidense, el primer buque de carga estadounidense secuestrado en doscientos años."
+  },
+  {
+    "_id": "608c3fa1803d6c8ff2cd9e0d",
+    "title": "The Usual Suspects",
+    "releaseDate": "1995-08-16T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Thriller",
+      "Crime",
+      "Mystery"
+    ],
+    "director": "Bryan Singer",
+    "mainCast": [
+      "Kevin Spacey",
+      "Gabriel Byrne",
+      "Chazz Palminteri"
+    ],
+    "poster": "the_usual_suspects.jpg",
+    "synopsis": "Un único superviviente cuenta los sinuosos acontecimientos que llevaron a un terrible tiroteo en un barco, que comenzó cuando cinco delincuentes se encontraron en una alineación policial aparentemente aleatoria."
+  },
+  {
+    "_id": "608c4263aea6225b417ec5c4",
+    "title": "Taken",
+    "releaseDate": "2008-01-30T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "director": "Pierre Morel",
+    "mainCast": [
+      "Liam Neeson",
+      "Maggie Grace",
+      "Famke Janssen"
+    ],
+    "poster": "taken.jpg",
+    "synopsis": "Un agente retirado de la CIA viaja por Europa y confía en sus viejas habilidades para salvar a su hija separada, que ha sido secuestrada durante un viaje a París."
+  },
+  {
+    "_id": "608c42f451b375c12cc4175d",
+    "title": "True Lies",
+    "releaseDate": "1994-07-15T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Action",
+      "Comedy",
+      "Thriller"
+    ],
+    "director": "James Cameron",
+    "mainCast": [
+      "Arnold Schwarzenegger",
+      "Jamie Lee Curtis",
+      "Tom Arnold"
+    ],
+    "poster": "true_lies.jpg",
+    "synopsis": "Un agente secreto intrépido, trotamundos y luchador contra terroristas tiene su vida patas arriba cuando descubre que su esposa podría estar teniendo una aventura con un vendedor de autos usados mientras los terroristas introducen de contrabando cabezas de guerra nuclear en los Estados Unidos."
+  },
+  {
+    "_id": "608c439aaae87726bc4dd0c4",
+    "title": "Hannibal",
+    "releaseDate": "2001-02-09T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "director": "Ridley Scott",
+    "mainCast": [
+      "Anthony Hopkins",
+      "Julianne Moore",
+      "Gary Oldman"
+    ],
+    "poster": "hannibal.jpg",
+    "synopsis": "Viviendo en el exilio, el Dr. Hannibal Lecter intenta reconectarse con el ahora deshonrado F.B.I. Agente Clarice Starling, y se ve a sí mismo como un objetivo para vengarse de una poderosa víctima."
+  },
+  {
+    "_id": "608c4413674c505aa399aaf4",
+    "title": "The Silence of the Lambs",
+    "releaseDate": "1991-02-14T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "director": "Jonathan Demme",
+    "mainCast": [
+      "Jodie Foster",
+      "Anthony Hopkins",
+      "Lawrence A. Bonney"
+    ],
+    "poster": "the_silence_of_the_lambs.jpg",
+    "synopsis": "Un joven F.B.I. El cadete debe recibir la ayuda de un asesino caníbal manipulador y encarcelado para ayudar a atrapar a otro asesino en serie, un loco que despelleja a sus víctimas."
+  },
+  {
+    "_id": "608c44aafb4a036fce126a66",
+    "title": "Red Dragon",
+    "releaseDate": "2002-10-04T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "director": "Brett Ratner",
+    "mainCast": [
+      "Anthony Hopkins",
+      "Edward Norton",
+      "Ralph Fiennes"
+    ],
+    "poster": "red_dragon.jpg",
+    "synopsis": "Un agente retirado del FBI con dones psicológicos es asignado para ayudar a localizar a 'El hada de los dientes', un misterioso asesino en serie. Le ayuda el psiquiatra forense encarcelado, el Dr. Hannibal 'The Cannibal' Lecter."
+  },
+  {
+    "_id": "608c459fd18a57e09a3bbab6",
+    "title": "Gone Girl",
+    "releaseDate": "2014-10-03T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Mystery",
+      "Drama",
+      "Thriller"
+    ],
+    "director": "David Fincher",
+    "mainCast": [
+      "Ben Affleck",
+      "Rosamund Pike",
+      "Neil Patrick Harris"
+    ],
+    "poster": "gone_girl.jpg",
+    "synopsis": "Dado que la desaparición de su esposa se ha convertido en el centro de un intenso circo mediático, un hombre ve que el centro de atención se centra en él cuando se sospecha que puede que no sea inocente."
+  },
+  {
+    "_id": "608c461ee98087ec68f59036",
+    "title": "Get Out",
+    "releaseDate": "2017-02-24T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Mystery",
+      "Horror",
+      "Thriller"
+    ],
+    "director": "Jordan Peele",
+    "mainCast": [
+      "Daniel Kaluuya",
+      "Allison Williams",
+      "Bradley Whitford"
+    ],
+    "poster": "get_out.jpg",
+    "synopsis": "Un joven afroamericano visita a los padres de su novia blanca durante el fin de semana, donde su creciente inquietud por la recepción de él finalmente alcanza un punto de ebullición."
+  },
+  {
+    "_id": "608c46da2899364b9ea1a7a6",
+    "title": "The Bourne Identity",
+    "releaseDate": "2002-06-14T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Mystery",
+      "Action",
+      "Thriller"
+    ],
+    "director": "Doug Liman",
+    "mainCast": [
+      "Franka Potente",
+      "Matt Damon",
+      "Chris Cooper"
+    ],
+    "poster": "the_bourne_identity.jpg",
+    "synopsis": "Un hombre es recogido por un barco de pesca, acribillado a balazos y sufriendo amnesia, antes de correr para eludir a los asesinos e intentar recuperar la memoria."
+  },
+  {
+    "_id": "608c47882abc95f0aedd026d",
+    "title": "The Bourne Legacy",
+    "releaseDate": "2010-08-10T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Adventure",
+      "Action",
+      "Thriller"
+    ],
+    "director": "Tony Gilroy",
+    "mainCast": [
+      "Jeremy Renner",
+      "Rachel Weisz",
+      "Edward Norton"
+    ],
+    "poster": "the_bourne_legacy.jpg",
+    "synopsis": "Una expansión del universo de las novelas de Robert Ludlum, centrada en un nuevo héroe cuyas apuestas han sido provocadas por los eventos de las tres películas anteriores."
+  },
+  {
+    "_id": "608c480e99461cbc46b0c84c",
+    "title": "Jason Bourne",
+    "releaseDate": "2016-07-29T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "director": "Paul Greengrass",
+    "mainCast": [
+      "Matt Damon",
+      "Tommy Lee Jones",
+      "Alicia Vikander"
+    ],
+    "poster": "jason_bourne.jpg",
+    "synopsis": "El ex operativo más peligroso de la CIA sale de su escondite para descubrir verdades más explosivas sobre su pasado."
+  },
+  {
+    "_id": "608c48fd15283ca39fbce80c",
+    "title": "Ex Machina",
+    "releaseDate": "2014-04-24T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Drama",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "director": "Alex Garland",
+    "mainCast": [
+      "Alicia Vikander",
+      "Domhnall Gleeson",
+      "Oscar Isaac"
+    ],
+    "poster": "ex_machina.jpg",
+    "synopsis": "Un joven programador es seleccionado para participar en un experimento pionero en inteligencia sintética al evaluar las cualidades humanas de una IA humanoide altamente avanzada."
+  },
+  {
+    "_id": "608c497139575c526c1243c1",
+    "title": "The Bourne Ultimatum",
+    "releaseDate": "2007-08-03T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Action",
+      "Thriller",
+      "Mystery"
+    ],
+    "director": "Paul Greengrass",
+    "mainCast": [
+      "Matt Damon",
+      "Edgar Ramírez",
+      "Joan Allen"
+    ],
+    "poster": "the_bourne_ultimatum.jpg",
+    "synopsis": "Jason Bourne esquiva un implacable C.I.A. oficial y sus agentes de un nuevo programa de asesinatos mientras buscaba los orígenes de su vida como asesino entrenado."
+  },
+  {
+    "_id": "608c49fcb268c65326c58a6e",
+    "title": "The Bourne Supremacy",
+    "releaseDate": "2004-07-23T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Action",
+      "Thriller",
+      "Mystery"
+    ],
+    "director": "Paul Greengrass",
+    "mainCast": [
+      "Matt Damon",
+      "Franka Potente",
+      "Joan Allen"
+    ],
+    "poster": "the_bourne_supremacy.jpg",
+    "synopsis": "Cuando Jason Bourne es incriminado por una operación de la CIA que salió mal, se ve obligado a reanudar su vida anterior como asesino entrenado para sobrevivir."
+  },
+  {
+    "_id": "608c4a9c9ec61b65537d4fd6",
+    "title": "Mission: Impossible",
+    "releaseDate": "1996-05-22T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Action",
+      "Thriller",
+      "Adventure"
+    ],
+    "director": "Brian De Palma",
+    "mainCast": [
+      "Tom Cruise",
+      "Jon Voight",
+      "Emmanuelle Béart"
+    ],
+    "poster": "mission_impossible.jpg",
+    "synopsis": "Un agente estadounidense, bajo una falsa sospecha de deslealtad, debe descubrir y desenmascarar al verdadero espía sin la ayuda de su organización."
+  },
+  {
+    "_id": "608c4b7062057ecce5c0e22c",
+    "title": "Mission: Impossible - Fallout",
+    "releaseDate": "2018-07-27T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Action",
+      "Thriller",
+      "Adventure"
+    ],
+    "director": "Christopher McQuarrie",
+    "mainCast": [
+      "Tom Cruise",
+      "Henry Cavill",
+      "Ving Rhames"
+    ],
+    "poster": "mission_impossible_fallout.jpg",
+    "synopsis": "Ethan Hunt y su equipo del FMI, junto con algunos aliados conocidos, compiten contra el tiempo después de que una misión sale mal."
+  },
+  {
+    "_id": "608c4be1e3fa8accb308c88b",
+    "title": "Mission: Impossible - Rogue Nation",
+    "releaseDate": "2015-07-31T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Action",
+      "Thriller",
+      "Adventure"
+    ],
+    "director": "Christopher McQuarrie",
+    "mainCast": [
+      "Tom Cruise",
+      "Rebecca Ferguson",
+      "Jeremy Renner"
+    ],
+    "poster": "mission_impossible_rogue_nation.jpg",
+    "synopsis": "Ethan y su equipo asumen su misión más imposible hasta ahora cuando tienen que erradicar una organización internacional deshonesta tan altamente capacitada como ellos y comprometida con la destrucción del FMI."
+  },
+  {
+    "_id": "608c4c64f144c768a154d0c9",
+    "title": "Mission: Impossible - Ghost Protocol",
+    "releaseDate": "2011-12-21T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Action",
+      "Thriller",
+      "Adventure"
+    ],
+    "director": "Brad Bird",
+    "mainCast": [
+      "Tom Cruise",
+      "Jeremy Renner",
+      "Simon Pegg"
+    ],
+    "poster": "mission_impossible_ghost_protocol.jpg",
+    "synopsis": "El FMI se cierra cuando está implicado en el bombardeo del Kremlin, lo que hace que Ethan Hunt y su nuevo equipo se vuelvan deshonestos para limpiar el nombre de su organización."
+  },
+  {
+    "_id": "608c4cc8948f1a6ae71158e9",
+    "title": "Mission: Impossible III",
+    "releaseDate": "2006-05-05T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Action",
+      "Thriller",
+      "Adventure"
+    ],
+    "director": "J.J. Abrams",
+    "mainCast": [
+      "Tom Cruise",
+      "Michelle Monaghan",
+      "Ving Rhames"
+    ],
+    "poster": "mission_impossible_iii.jpg",
+    "synopsis": "El agente del FMI Ethan Hunt entra en conflicto con un peligroso y sádico traficante de armas que, en respuesta, amenaza su vida y la de su prometida."
+  },
+  {
+    "_id": "608c4d75e74f2c0827cabc05",
+    "title": "Mission: Impossible II",
+    "releaseDate": "2000-05-24T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Action",
+      "Thriller",
+      "Adventure"
+    ],
+    "director": "John Woo",
+    "mainCast": [
+      "Tom Cruise",
+      "Dougray Scott",
+      "Thandiwe Newton"
+    ],
+    "poster": "mission_impossible_ii.jpg",
+    "synopsis": "El agente del FMI Ethan Hunt es enviado a Sydney para encontrar y destruir una enfermedad modificada genéticamente llamada 'Quimera'."
+  },
+  {
+    "_id": "608c4e0538da8894042a89f4",
+    "title": "Ocean's Eleven",
+    "releaseDate": "2001-12-07T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Crime",
+      "Thriller"
+    ],
+    "director": "Steven Soderbergh",
+    "mainCast": [
+      "George Clooney",
+      "Brad Pitt",
+      "Julia Roberts"
+    ],
+    "poster": "oceans_eleven.jpg",
+    "synopsis": "Danny Ocean y sus diez cómplices planean robar tres casinos de Las Vegas simultáneamente."
+  },
+  {
+    "_id": "608c4e88d8880b6a62c6c742",
+    "title": "The Da Vinci Code",
+    "releaseDate": "2006-05-19T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Mystery",
+      "Thriller"
+    ],
+    "director": "Ron Howard",
+    "mainCast": [
+      "Tom Hanks",
+      "Audrey Tautou",
+      "Jean Reno"
+    ],
+    "poster": "the_da_vinci_code.jpg",
+    "synopsis": "Un asesinato en el interior del Louvre y pistas en las pinturas de Da Vinci conducen al descubrimiento de un misterio religioso protegido por una sociedad secreta durante dos mil años, que podría sacudir los cimientos del cristianismo."
+  },
+  {
+    "_id": "608c4ef7e86bc60387b20d4d",
+    "title": "Twister",
+    "releaseDate": "1996-05-10T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Action",
+      "Thriller",
+      "Adventure"
+    ],
+    "director": "Jan de Bont",
+    "mainCast": [
+      "Helen Hunt",
+      "Bill Paxton",
+      "Cary Elwes"
+    ],
+    "poster": "twister.jpg",
+    "synopsis": "Bill y Jo Harding, cazadores de tormentas avanzados al borde del divorcio, deben unirse para crear un sistema avanzado de alerta meteorológica al ponerse en el punto de mira de tornados extremadamente violentos."
+  },
+  {
+    "_id": "608c4fa64f8006266ef6b4b4",
+    "title": "The Sixth Sense",
+    "releaseDate": "1999-08-06T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ],
+    "director": "M. Night Shyamalan",
+    "mainCast": [
+      "Bruce Willis",
+      "Haley Joel Osment",
+      "Toni Collette"
+    ],
+    "poster": "the_sixth_sense.jpg",
+    "synopsis": "Un niño que se comunica con los espíritus busca la ayuda de un psicólogo infantil desanimado."
+  },
+  {
+    "_id": "608c501b11dabb3410fd6ecd",
+    "title": "Gravity",
+    "releaseDate": "2013-10-04T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Drama",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "director": "Alfonso Cuaron",
+    "mainCast": [
+      "Sandra Bullock",
+      "George Clooney",
+      "Ed Harris"
+    ],
+    "poster": "gravity.jpg",
+    "synopsis": "Dos astronautas trabajan juntos para sobrevivir después de que un accidente los deja varados en el espacio."
+  },
+  {
+    "_id": "608c50c0a4d664d33e625538",
+    "title": "Joker",
+    "releaseDate": "2019-10-04T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Drama",
+      "Thriller",
+      "Crime"
+    ],
+    "director": "Todd Phillips",
+    "mainCast": [
+      "Joaquin Phoenix",
+      "Robert De Niro",
+      "Zazie Beetz"
+    ],
+    "poster": "joker.jpg",
+    "synopsis": "En Gotham City, la sociedad ignora y maltrata al comediante con problemas mentales Arthur Fleck. Luego se embarca en una espiral descendente de revolución y crímenes sangrientos. Este camino lo pone cara a cara con su alter ego: el Joker."
+  },
+  {
+    "_id": "608c51316d5efa60594e1fa8",
+    "title": "Parasite",
+    "releaseDate": "2019-11-08T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Drama",
+      "Thriller",
+      "Comedy"
+    ],
+    "director": "Bong Joon Ho",
+    "mainCast": [
+      "Kang-ho Song",
+      "Sun-kyun Lee",
+      "Yeo-jeong Cho"
+    ],
+    "poster": "parasite.jpg",
+    "synopsis": "La codicia y la discriminación de clase amenazan la relación simbiótica recién formada entre la rica familia Park y el indigente clan Kim."
+  },
+  {
+    "_id": "608c55e7175fab0e9d2d314a",
+    "title": "The Ring",
+    "releaseDate": "2002-10-18T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Horror",
+      "Mystery"
+    ],
+    "director": "Gore Verbinski",
+    "mainCast": [
+      "Naomi Watts", "Martin Henderson", "Brian Cox"
+    ],
+    "poster": "the_ring.jpg",
+    "synopsis": "Un periodista debe investigar una cinta de video misteriosa que parece causar la muerte de cualquier persona una semana después de que la vean."
+  },
+  {
+    "_id": "608c5695bcac0983b6564fee",
+    "title": "The Nun",
+    "releaseDate": "2018-09-07T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "director": "Corin Hardy",
+    "mainCast": [
+      "Demián Bichir", "Taissa Farmiga", "Jonas Bloquet"
+    ],
+    "poster": "the_nun.jpg",
+    "synopsis": "Un sacerdote con un pasado angustiado y una novicia en el umbral de sus votos perpetuos son enviados por el Vaticano para investigar la muerte de una joven monja en Rumania y enfrentarse a una fuerza malévola en la forma de una monja demoníaca."
+  },
+  {
+    "_id": "608c56f35395fbc887e0fd00",
+    "title": "The Grudge",
+    "releaseDate": "2018-09-07T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "director": "Takashi Shimizu",
+    "mainCast": [
+      "Sarah Michelle Gellar", "Jason Behr", "Clea DuVall"
+    ],
+    "poster": "the_grudge.jpg",
+    "synopsis": "Una enfermera estadounidense que vive y trabaja en Tokio se ve expuesta a una misteriosa maldición sobrenatural, una que encierra a una persona en una poderosa rabia antes de reclamar su vida y contagiarse a otra víctima."
+  },
+  {
+    "_id": "608c5760abbf00cb741dbb61",
+    "title": "Paranormal Activity",
+    "releaseDate": "2007-10-16T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Horror",
+      "Mystery"
+    ],
+    "director": "Oren Peli",
+    "mainCast": [
+      "Katie Featherston", "Micah Sloat", "Mark Fredrichs"
+    ],
+    "poster": "paranormal_activity.jpg",
+    "synopsis": "Después de mudarse a una casa suburbana, una pareja se ve cada vez más perturbada por una presencia demoníaca nocturna."
+  },
+  {
+    "_id": "608c57e6d1681e8a86c2a9cb",
+    "title": "Interview with the Vampire: The Vampire Chronicles",
+    "releaseDate": "1994-11-11T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Horror",
+      "Drama"
+    ],
+    "director": "Neil Jordan",
+    "mainCast": [
+      "Brad Pitt", "Tom Cruise", "Antonio Banderas"
+    ],
+    "poster": "interview_with_the_vampire_the_vampire_chronicles.jpg",
+    "synopsis": "Un vampiro cuenta la épica historia de su vida: amor, traición, soledad y hambre."
+  },
+  {
+    "_id": "608c585f2f59cb02654dee5b",
+    "title": "It",
+    "releaseDate": "2017-09-08T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Horror"
+    ],
+    "director": "Andy Muschietti",
+    "mainCast": [
+      "Bill Skarsgård", "Jaeden Martell", "Finn Wolfhard"
+    ],
+    "poster": "it.jpg",
+    "synopsis": "En el verano de 1989, un grupo de niños acosados se unen para destruir un monstruo que cambia de forma, que se disfraza de payaso y se alimenta de los niños de Derry, su pequeña ciudad de Maine."
+  },
+  {
+    "_id": "608c594c680400f889885374",
+    "title": "The Exorcist",
+    "releaseDate": "1973-12-26T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Horror"
+    ],
+    "director": "William Friedkin",
+    "mainCast": [
+      "Ellen Burstyn", "Max von Sydow", "Linda Blair"
+    ],
+    "poster": "the_exorcist.jpg",
+    "synopsis": "Cuando una niña de 12 años es poseída por una entidad misteriosa, su madre busca la ayuda de dos sacerdotes para salvarla."
+  },
+  {
+    "_id": "608c59bd6385229da66a8fb4",
+    "title": "World War Z",
+    "releaseDate": "2013-06-21T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Horror",
+      "Action",
+      "Adventure"
+    ],
+    "director": "Marc Forster",
+    "mainCast": [
+      "Brad Pitt", "Mireille Enos", "Daniella Kertesz"
+    ],
+    "poster": "world_war_z.jpg",
+    "synopsis": "El ex empleado de las Naciones Unidas, Gerry Lane, atraviesa el mundo en una carrera contra el tiempo para detener una pandemia de zombis que está derrocando ejércitos y gobiernos y amenaza con destruir a la humanidad misma."
+  },
+  {
+    "_id": "608c5a3a1c5ac5fc1ce733d0",
+    "title": "A Quiet Place",
+    "releaseDate": "2018-04-06T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Horror",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "director": "John Krasinski",
+    "mainCast": [
+      "Emily Blunt", "John Krasinski", "Millicent Simmonds"
+    ],
+    "poster": "a_quiet_place.jpg",
+    "synopsis": "En un mundo postapocalíptico, una familia se ve obligada a vivir en silencio mientras se esconde de los monstruos con audición ultrasensible."
+  },
+  {
+    "_id": "608c5ab392f4988f61c15c37",
+    "title": "It Chapter Two",
+    "releaseDate": "2019-09-06T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Horror",
+      "Drama",
+      "Fantasy"
+    ],
+    "director": "Andy Muschietti",
+    "mainCast": [
+      "Jessica Chastain", "James McAvoy", "Bill Hader"
+    ],
+    "poster": "it_chapter_two.jpg",
+    "synopsis": "Veintisiete años después de su primer encuentro con el aterrador Pennywise, el Losers Club ha crecido y se ha mudado, hasta que una devastadora llamada telefónica los trae de vuelta."
+  },
+  {
+    "_id": "608c5ba535c898374e314307",
+    "title": "Halloween",
+    "releaseDate": "2018-10-19T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Horror",
+      "Crime",
+      "Thriller"
+    ],
+    "director": "David Gordon Green",
+    "mainCast": [
+      "Jamie Lee Curtis", "Judy Greer", "Andi Matichak"
+    ],
+    "poster": "halloween.jpg",
+    "synopsis": "Laurie Strode se enfrenta a su antiguo enemigo Michael Myers, la figura enmascarada que la ha perseguido desde que escapó por poco de su matanza en la noche de Halloween hace cuatro décadas."
+  },
+  {
+    "_id": "608c5c381cec56a2f8c50a6c",
+    "title": "What Lies Beneath",
+    "releaseDate": "2000-07-21T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Horror",
+      "Drama",
+      "Mystery"
+    ],
+    "director": "Robert Zemeckis",
+    "mainCast": [
+      "Harrison Ford", "Michelle Pfeiffer", "Katharine Towne"
+    ],
+    "poster": "what_lies_beneath.jpg",
+    "synopsis": "La esposa de un científico investigador universitario cree que su casa junto al lago de Vermont está perseguida por un fantasma, o que está perdiendo la cabeza."
+  },
+  {
+    "_id": "608c5c9a77d1ef52fbab337d",
+    "title": "The Blair Witch Project",
+    "releaseDate": "1999-07-30T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Horror",
+      "Mystery"
+    ],
+    "director": "Daniel Myrick, Eduardo Sanchez",
+    "mainCast": [
+      "Heather Donahue", "Michael C. Williams", "Joshua Leonard"
+    ],
+    "poster": "the_blair_witch_project.jpg",
+    "synopsis": "Tres estudiantes de cine desaparecen después de viajar a un bosque de Maryland para filmar un documental sobre la leyenda local de Blair Witch, dejando solo sus imágenes."
+  },
+  {
+    "_id": "608c5d68a889bbd84f4f5af0",
+    "title": "Split",
+    "releaseDate": "2017-01-20T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Horror",
+      "Thriller"
+    ],
+    "director": "M. Night Shyamalan",
+    "mainCast": [
+      "James McAvoy", "Anya Taylor-Joy", "Haley Lu Richardson"
+    ],
+    "poster": "split.jpg",
+    "synopsis": "Tres niñas son secuestradas por un hombre con 23 personalidades distintas diagnosticadas. Deben intentar escapar antes de la aparente aparición de un nuevo y espantoso 24."
+  },
+  {
+    "_id": "608c5dcbb8de404ee5cea524",
+    "title": "Glass",
+    "releaseDate": "2019-01-18T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Drama",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "director": "M. Night Shyamalan",
+    "mainCast": [
+      "James McAvoy", "Bruce Willis", "Samuel L. Jackson"
+    ],
+    "poster": "glass.jpg",
+    "synopsis": "El guardia de seguridad David Dunn usa sus habilidades sobrenaturales para rastrear a Kevin Wendell Crumb, un hombre perturbado que tiene veinticuatro personalidades."
+  },
+  {
+    "_id": "608c5e1bd329524061276dbe",
+    "title": "Unbreakable",
+    "releaseDate": "2000-11-22T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "director": "M. Night Shyamalan",
+    "mainCast": [
+      "Robin Wright", "Bruce Willis", "Samuel L. Jackson"
+    ],
+    "poster": "unbreakable.jpg",
+    "synopsis": "Un hombre aprende algo extraordinario sobre sí mismo después de un devastador accidente."
+  },
+  {
+    "_id": "608c609f9c14918989d558a6",
+    "title": "The Notebook",
+    "releaseDate": "2004-06-25T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "director": "Nick Cassavetes",
+    "mainCast": [
+      "Gena Rowlands", "James Garner", "Rachel McAdams"
+    ],
+    "poster": "the_notebook.jpg",
+    "synopsis": "Un joven pobre pero apasionado se enamora de una joven rica, lo que le da una sensación de libertad, pero pronto se separan debido a sus diferencias sociales."
+  },
+  {
+    "_id": "608c614330e11dfca2ac06a6",
+    "title": "Titanic",
+    "releaseDate": "1997-12-19T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "director": "James Cameron",
+    "mainCast": [
+      "Leonardo DiCaprio", "Kate Winslet", "Billy Zane"
+    ],
+    "poster": "titanic.jpg",
+    "synopsis": "Un aristócrata de diecisiete años se enamora de un artista amable pero pobre a bordo del lujoso y desafortunado R.M.S. Titánico."
+  },
+  {
+    "_id": "608c61ef5ad18ab43b59c824",
+    "title": "Ghost",
+    "releaseDate": "1990-07-13T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Romance",
+      "Drama",
+      "Fantasy"
+    ],
+    "director": "Jerry Zucker",
+    "mainCast": [
+      "Patrick Swayze", "Demi Moore", "Whoopi Goldberg"
+    ],
+    "poster": "ghost.jpg",
+    "synopsis": "Después de que un joven es asesinado, su espíritu se queda atrás para advertir a su amante del peligro inminente, con la ayuda de un psíquico reacio."
+  },
+  {
+    "_id": "608c62eb4af870d3cc573979",
+    "title": "Wedding Crashers",
+    "releaseDate": "2005-07-15T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Romance",
+      "Comedy"
+    ],
+    "director": "David Dobkin",
+    "mainCast": [
+      "Owen Wilson", "Vince Vaughn", "Rachel McAdams"
+    ],
+    "poster": "wdding_crashers.jpg",
+    "synopsis": "John Beckwith y Jeremy Gray, un par de mujeriegos comprometidos que se cuelan en las bodas para aprovechar el tinte romántico en el aire, se encuentran en desacuerdo cuando John conoce y se enamora de Claire Cleary."
+  },
+  {
+    "_id": "608c6356a7cde8e6bc0541b2",
+    "title": "Twilight",
+    "releaseDate": "2008-11-21T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Romance",
+      "Drama",
+      "Fantasy"
+    ],
+    "director": "Catherine Hardwicke",
+    "mainCast": [
+      "Kristen Stewart", "Robert Pattinson", "Billy Burke"
+    ],
+    "poster": "twilight.jpg",
+    "synopsis": "Cuando Bella Swan se muda a un pequeño pueblo en el noroeste del Pacífico, se enamora de Edward Cullen, un misterioso compañero de clase que se revela como un vampiro de 108 años."
+  },
+  {
+    "_id": "608c63d2d906a4d8f782b8a3",
+    "title": "Hitch",
+    "releaseDate": "2005-02-11T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Romance",
+      "Comedy"
+    ],
+    "director": "Andy Tennant",
+    "mainCast": [
+      "Will Smith", "Eva Mendes", "Kevin James"
+    ],
+    "poster": "hitch.jpg",
+    "synopsis": "Un hombre que habla suavemente se enamora de un columnista empedernido mientras ayuda a un contable tímido a cortejar a una hermosa heredera."
+  },
+  {
+    "_id": "608c64428e6e39bffb196478",
+    "title": "Pretty Woman",
+    "releaseDate": "1990-03-23T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Romance",
+      "Comedy"
+    ],
+    "director": "Garry Marshall",
+    "mainCast": [
+      "Richard Gere", "Julia Roberts", "Jason Alexander"
+    ],
+    "poster": "pretty_woman.jpg",
+    "synopsis": "Un hombre en un negocio legal pero doloroso necesita una escolta para algunos eventos sociales, y contrata a una hermosa prostituta que conoce ... solo para enamorarse."
+  },
+  {
+    "_id": "608c64e073e3d4c64953edcf",
+    "title": "The Proposal",
+    "releaseDate": "2009-06-19T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Romance",
+      "Comedy",
+      "Drama"
+    ],
+    "director": "Anne Fletcher",
+    "mainCast": [
+      "Sandra Bullock", "Ryan Reynolds", "Mary Steenburgen"
+    ],
+    "poster": "the_proposal.jpg",
+    "synopsis": "Un jefe agresivo obliga a su joven asistente a casarse con ella para mantener su estatus de visa en los Estados Unidos y evitar la deportación a Canada."
+  },
+  {
+    "_id": "608c6567868be3bb93f282c8",
+    "title": "The Great Gatsby",
+    "releaseDate": "2013-05-10T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "director": "Baz Luhrmann",
+    "mainCast": [
+      "Leonardo DiCaprio", "Carey Mulligan", "Joel Edgerton"
+    ],
+    "poster": "the_great_gatsby.jpg",
+    "synopsis": "Nick, un escritor y comerciante de Wall Street, se siente atraído por el pasado y el estilo de vida de su vecino millonario, Jay Gatsby."
+  },
+  {
+    "_id": "608c65eb2d3bef65f9a5b10c",
+    "title": "My Best Friend's Wedding",
+    "releaseDate": "1997-06-20T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Romance",
+      "Drama",
+      "Comedy"
+    ],
+    "director": "P.J. Hogan",
+    "mainCast": [
+      "Julia Roberts", "Dermot Mulroney", "Cameron Diaz"
+    ],
+    "poster": "my_best_friends_wedding.jpg",
+    "synopsis": "Cuando el viejo amigo de una mujer revela que está comprometido, ella se da cuenta de que ella misma lo ama y se dispone a buscarlo, solo unos días antes de la boda."
+  },
+  {
+    "_id": "608c66a7bd963bae8f43fb43",
+    "title": "Notting Hill",
+    "releaseDate": "1999-05-28T00:00:00Z",
+    "ageRate": "PG-13",
+    "genre": [
+      "Romance",
+      "Drama",
+      "Comedy"
+    ],
+    "director": "Roger Michell",
+    "mainCast": [
+      "Hugh Grant", "Julia Roberts", "Richard McCabe"
+    ],
+    "poster": "notting_hill.jpg",
+    "synopsis": "La vida del simple dueño de una librería cambia cuando conoce a la estrella de cine más famosa del mundo."
+  },
+  {
+    "_id": "608c67337944a95e6347ead5",
+    "title": "The 40-Year-Old Virgin",
+    "releaseDate": "2005-08-19T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Romance",
+      "Comedy"
+    ],
+    "director": "Judd Apatow",
+    "mainCast": [
+      "Steve Carell", "Catherine Keener", "Paul Rudd"
+    ],
+    "poster": "the_40_year_old_virgin.jpg",
+    "synopsis": "Aguijoneado por sus amigos, un chico nerd que nunca ha 'hecho nada' sólo encuentra la presión en aumento cuando conoce a una madre soltera."
+  },
+  {
+    "_id": "608c67bd05cb5f4613fc161e",
+    "title": "he Princess Diaries",
+    "releaseDate": "2001-08-03T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Romance",
+      "Comedy",
+      "Family"
+    ],
+    "director": "Garry Marshall",
+    "mainCast": [
+      "Julie Andrews", "Anne Hathaway", "Hector Elizondo"
+    ],
+    "poster": "the_princess_diaries.jpg",
+    "synopsis": "Mia Thermopolis acaba de descubrir que es la heredera aparente del trono de Genovia. Con sus amigos Lilly y Michael Moscovitz a cuestas, intenta navegar durante el resto de sus dieciséis años."
+  },
+  {
+    "_id": "608c683930e4664660994e4e",
+    "title": "Little Women",
+    "releaseDate": "2019-12-25T00:00:00Z",
+    "ageRate": "R",
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "director": "Greta Gerwig",
+    "mainCast": [
+      "Saoirse Ronan", "Emma Watson", "Florence Pugh"
+    ],
+    "poster": "little_women.jpg",
+    "synopsis": "Jo March reflexiona una y otra vez sobre su vida, contando la querida historia de las hermanas March: cuatro mujeres jóvenes, cada una determinada a vivir la vida en sus propios términos."
+  }
+]

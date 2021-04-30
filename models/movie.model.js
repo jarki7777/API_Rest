@@ -22,7 +22,8 @@ const MovieSchema = new mongoose.Schema({
         type: Array,
         default: void 0
     },
-    poster: String
+    poster: String,
+    synopsis: String
 });
 
 const Movies = mongoose.model('Movies', MovieSchema);
