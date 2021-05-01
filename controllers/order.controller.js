@@ -42,5 +42,19 @@ export const orderController = {
             console.log(e);
             res.status(400).send({ 'message': e.message });
         }
+    },
+    allMoviesByUser: async (req, res) => {
+        try {
+            const user = req.query.user
+            console.log(user);
+
+            const orderList = await Orders.find({ "user": user })
+            console.log(orderList);
+            res.status(200).json(orderList);
+
+        } catch (e) {
+            console.log(e);
+            res.status(400).send({ 'message': e.message });
+        }
     }
 }

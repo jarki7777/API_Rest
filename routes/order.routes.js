@@ -12,4 +12,6 @@ orderRoutes.get('/list', checkRole, orderController.list);
 
 orderRoutes.get('/user/:id', checkJwt, orderController.listByUser);
 
+orderRoutes.get('/:user', checkJwt, orderController.allMoviesByUser);
+
 export default orderRoutes;
