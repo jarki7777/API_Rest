@@ -17,7 +17,7 @@ export const jwtController = {
                 id: checkUser._id
             }                
             const token = jwt.sign(jwtPayload, process.env.SECRET);
-            res.status(200).json({ token, id: checkUser._id });
+            res.status(200).json({ token, id: checkUser._id, role: checkUser.role });
         } else {
             res.status(404).send({ message: 'The password is incorrect'});
         }

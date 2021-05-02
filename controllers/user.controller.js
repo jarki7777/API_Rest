@@ -18,7 +18,7 @@ export const userController = {
         const age = calculateAge(new Date(born));
 
         try {
-            
+
             const newUser = {
                 email: req.body.email,
                 userName: req.body.userName,
@@ -32,11 +32,11 @@ export const userController = {
             const userNameExist = await Users.findOne({ userName: req.body.userName });
 
             if (emailExist) {
-                res.status(400).send({'message': 'Email is already registered', 'code': 3});
+                res.status(400).send({ 'message': 'Email is already registered', 'code': 3 });
             } else if (userNameExist) {
-                res.status(400).send({'message': 'User name is already registered', 'code': 4});                
+                res.status(400).send({ 'message': 'User name is already registered', 'code': 4 });
             } else {
-                const response = await Users.create(newUser);                
+                const response = await Users.create(newUser);
             }
 
             res.sendStatus(201);
@@ -48,7 +48,7 @@ export const userController = {
     dashboard: async (req, res) => {
         try {
             const id = req.params.id;
-            const user = await Users.findById({ _id: id }).select('email userName born');
+            const user = await Users.findById({ _id: id }).select('email userName born role');
             checkUrl(id, user, res);
         } catch (e) {
             console.log(e);
@@ -60,6 +60,24 @@ export const userController = {
             const id = req.params.id;
             const user = await Users.findByIdAndDelete({ _id: id });
             checkUrl(id, user, res);
+            res.sendStatus(200)
+        } catch (e) {
+            console.log(e);
+            res.status(400).send({ 'message': e.message });
+        }
+    },
+    findByEmail: async (req, res) => {
+        try {
+            const skip = parseInt(req.query.skip);
+            const limit = parseInt(req.query.limit);
+
+            let email = req.query.email;
+            const user = await Users.find({ email: { $regex: new RegExp(email, "i") } }).select('email')
+            .skip(skip).limit(limit);
+            
+            const count = Math.ceil(await Users.countDocuments({ email: { $regex: new RegExp(email, "i") } }) / 10);
+            
+            res.status(200).send({ pages: count, users: user })
         } catch (e) {
             console.log(e);
             res.status(400).send({ 'message': e.message });
