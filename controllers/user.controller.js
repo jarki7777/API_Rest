@@ -69,12 +69,15 @@ export const userController = {
     },
     findByEmail: async (req, res) => {
         try {
+            const skip = parseInt(req.query.skip);
+            const limit = parseInt(req.query.limit);
+
             let email = req.query.email;
-            const user = await Users.find({ email: { $regex: new RegExp(email, "i") } }).select('email');
-            const count = Math.ceil(await Users.countDocuments(user) / 10);
-
-            ({ genre: { $regex: new RegExp(email, "i") } })
-
+            const user = await Users.find({ email: { $regex: new RegExp(email, "i") } }).select('email')
+            .skip(skip).limit(limit);
+            
+            const count = Math.ceil(await Users.countDocuments({ email: { $regex: new RegExp(email, "i") } }) / 10);
+            
             res.status(200).send({ pages: count, users: user })
         } catch (e) {
             console.log(e);
