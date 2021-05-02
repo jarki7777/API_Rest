@@ -1,5 +1,4 @@
 import Orders from '../models/order.model.js';
-import { checkUrl } from '../util/checkUrl.js';
 
 export const orderController = {
     create: async (req, res) => {
