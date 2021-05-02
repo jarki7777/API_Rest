@@ -1,6 +1,7 @@
 import Users from '../models/user.model.js';
 import { checkUrl } from '../util/checkUrl.js';
 import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken';
 
 export const userController = {
     create: async (req, res) => {
@@ -62,6 +63,54 @@ export const userController = {
             checkUrl(id, user, res);
         } catch (e) {
             console.log(e);
+            res.status(400).send({ 'message': e.message });
+        }
+    },
+    emailUpdate: async (req, res) => {
+        try{
+            const id = req.body.id
+            const email = req.body.email;
+
+            const emailExist = await Users.findOne({ email: email });
+            if(emailExist){
+                res.status(400).send({'message': 'El email ya está en uso', 'code': 3});
+            }else{
+                await Users.findByIdAndUpdate({ _id: id }, { email: email });
+                res.status(200).send({ 'message': 'El email se ha actualizado correctamente'});
+            }
+        }catch (e){
+            res.status(400).send({ 'message': e.message });
+        }
+    },
+    usernameUpdate: async (req, res) => {
+        try{
+            const id = req.body.id
+            const username = req.body.username;
+
+            const userNameExist = await Users.findOne({ userName: username });
+
+            if(userNameExist){
+                res.status(400).send({'message': 'El nombre de usuario ya está en uso', 'code': 3});
+            }else{
+                await Users.findByIdAndUpdate({ _id: id }, { userName: username });
+                res.status(200).send({ 'message': 'El nombre de usuario se ha actualizado correctamente'});
+            }
+        }catch (e){
+            res.status(400).send({ 'message': e.message });
+        }
+    },
+    passwordUpdate: async (req, res) => {
+        try{
+            const id = req.body.id
+            const oldPassword = req.body.oldPassword;
+            const newPassword = req.body.newPassword;
+
+            const user = await Users.findById({ _id: id});
+
+            await bcrypt.compare(oldPassword, user.password);
+            await Users.findByIdAndUpdate({ _id: id }, { password: newPassword });
+            res.status(200).send({ 'message': 'La contraseña se ha actualizado correctamente'});
+        }catch (e){
             res.status(400).send({ 'message': e.message });
         }
     }

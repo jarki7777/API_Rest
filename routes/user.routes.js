@@ -12,4 +12,10 @@ userRoutes.get('/dashboard/:id', checkJwt, userController.dashboard);
 
 userRoutes.delete('/:id', checkJwt, checkRole, userController.delete);
 
+userRoutes.patch('/update/email', checkJwt, userController.emailUpdate);
+
+userRoutes.patch('/update/username', checkJwt, userController.usernameUpdate);
+
+userRoutes.patch('/update/password', checkJwt, userController.passwordUpdate);
+
 export default userRoutes;
